@@ -1,0 +1,1655 @@
+Unity Editor version:    2022.3.42f1 (2dcb6a0abc42)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.7.1 (Build 21G920)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/yiyefang/Documents/UnityGame/NewYouTuberLife
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50977
+Successfully changed project path to: /Users/yiyefang/Documents/UnityGame/NewYouTuberLife
+/Users/yiyefang/Documents/UnityGame/NewYouTuberLife
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4829259264]  Target information:
+
+Player connection [4829259264]  * "[IP] 192.168.87.33 [Port] 0 [Flags] 2 [Guid] 3599956570 [EditorId] 3599956570 [Version] 1048832 [Id] OSXEditor(0,YIYFANG-M-G17N) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [4829259264] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4829259264] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 26.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yiyefang/Documents/UnityGame/NewYouTuberLife/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel Iris Pro Graphics (low power)
+Metal devices available: 1
+0: Intel Iris Pro Graphics (low power)
+Using device Intel Iris Pro Graphics (low power)
+Initializing Metal device caps: Intel Iris Pro Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56019
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005369 seconds.
+- Loaded All Assemblies, in  0.911 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.585 seconds
+Domain Reload Profiling: 1496ms
+	BeginReloadAssembly (284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (389ms)
+			TypeCache.Refresh (386ms)
+				TypeCache.ScanAssembly (351ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.445 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.559 seconds
+Domain Reload Profiling: 3005ms
+	BeginReloadAssembly (289ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1005ms)
+		LoadAssemblies (683ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (452ms)
+			TypeCache.Refresh (379ms)
+				TypeCache.ScanAssembly (344ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1155ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (860ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (223.5 KB). Loaded Objects now: 4572.
+Memory consumption went from 257.5 MB to 257.3 MB.
+Total: 7.230889 ms (FindLiveObjects: 0.420112 ms CreateObjectMapping: 0.420078 ms MarkObjects: 5.910509 ms  DeleteObjects: 0.478969 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2538.117247 seconds.
+  path: Assets/2D RPG Kit/Scenes
+  artifactKey: Guid(29df953fbed52994481fd2776fe0bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D RPG Kit/Scenes using Guid(29df953fbed52994481fd2776fe0bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5e866f6b0e6f5d4e50a08634d08047b5') in 0.003393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/2D RPG Kit/Scenes/Demo
+  artifactKey: Guid(f665f08ad97938246be1a49ef9021db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D RPG Kit/Scenes/Demo using Guid(f665f08ad97938246be1a49ef9021db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0cff23a2c7222fb4026847fba40fe401') in 0.000580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/2D RPG Kit/Scenes/Demo/House.unity
+  artifactKey: Guid(9bf9fd0dfd13ab64bb033f2ce6415e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D RPG Kit/Scenes/Demo/House.unity using Guid(9bf9fd0dfd13ab64bb033f2ce6415e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00fe3d1935de910cfc138b7601943033') in 0.000467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.085 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.290 seconds
+Domain Reload Profiling: 3378ms
+	BeginReloadAssembly (936ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (637ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (990ms)
+		LoadAssemblies (1045ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (22ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (1291ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (901ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (675ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (217.2 KB). Loaded Objects now: 5608.
+Memory consumption went from 271.9 MB to 271.7 MB.
+Total: 5.186638 ms (FindLiveObjects: 0.457180 ms CreateObjectMapping: 0.271024 ms MarkObjects: 4.221155 ms  DeleteObjects: 0.235919 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/LuaNumber.cs: 0f63fb3b2f42a9977bf9c05bd6cffdc4 -> 
+  custom:scripting/monoscript/fileName/PersistentDataSettings.cs: 81ab0e1e4feb5527ec3621f9f8ea82b1 -> 
+  custom:scripting/monoscript/fileName/SelectorUseStandardUIElementsEditor.cs: 1e889e4f762fb3e5aae249ac5ec39b9b -> 
+  custom:scripting/monoscript/fileName/Tools.cs: 959c99705dcd277d0463b944487f0748 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandCamera.cs: 8b95e12c6942acfae5c8ae66fcf6054d -> 
+  custom:scripting/monoscript/fileName/TextMeshProTypewriterEffect.cs: 0f9ab34fd48e054da1371933af31d4dd -> 
+  custom:scripting/monoscript/fileName/KeepRectTransformOnscreen.cs: d2be53874863f446ca81d9137f4c0e69 -> 
+  custom:scripting/monoscript/fileName/DialogueDatabase.cs: ceb61dcca9c6046ef265b81ab3e8dd35 -> 
+  custom:scripting/monoscript/fileName/VariablePicker.cs: 9230751196578e8385e8de50f23d8393 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandWaitForMessage.cs: 731932d01c64c1bd31a149b8d88aa27e -> 
+  custom:scripting/monoscript/fileName/TwineImportWindowDisabled.cs: a48390d2dedbfa52ea02be0aee8b84c8 -> 
+  custom:scripting/monoscript/fileName/LuaScriptWizardAttribute.cs: a571e18ba51b96f8127478f11f99235a -> 
+  custom:scripting/monoscript/fileName/OverrideDisplaySettings.cs: 2e1d29426bf8110add17af944ca1f037 -> 
+  custom:scripting/monoscript/fileName/UnityAlertControls.cs: cb8d3a4f3ab24e84cec1140da3c97ca8 -> 
+  custom:scripting/monoscript/fileName/CanvasDialogueUI.cs: 4b934f1eaacea04af30107700afc07c3 -> 
+  custom:scripting/monoscript/fileName/LuaConditionsWizardDrawer.cs: e0a3363d2c7d0d817d1642840463d45f -> 
+  custom:scripting/monoscript/fileName/UnityGUITools.cs: 07bba19fa56a7fd9a97f5e413843a591 -> 
+  custom:scripting/monoscript/fileName/UnityUIRoot.cs: a1ae87264ff88367dbbb8f9c94cc25e8 -> 
+  custom:scripting/monoscript/fileName/IMessageHandler.cs: 2ef430a52e3e12482d07da6bbbef2fba -> 
+  custom:scripting/monoscript/fileName/UnityUIContinueButtonFastForward.cs: eca48c2846ce20d593f1a9ce13470f6d -> 
+  custom:scripting/monoscript/fileName/DialogueEntryPicker.cs: e1668c76fe98ed77a86bf2f30ba5c689 -> 
+  custom:scripting/monoscript/fileName/CeltxConverterWindowDisabled.cs: 3fa8403dcd84eeea51722f79b069c85e -> 
+  custom:scripting/monoscript/fileName/FileLib.cs: 2183ff9b85d2bc2e12b927c6b29fbca0 -> 
+  custom:scripting/monoscript/fileName/FunctionCall.cs: ee1021adbd5f43f1f4f2c1fc57aea872 -> 
+  custom:scripting/monoscript/fileName/QuestEntryPopupDrawer.cs: 12240df041c3b7b8ebab5160e66b17c4 -> 
+  custom:scripting/monoscript/fileName/UnityUITypewriterEffect.cs: 15a28d2abe40166457279bba230c684b -> 
+  custom:scripting/monoscript/fileName/UnityUIIgnorePauseCodes.cs: da42d6fb808367518a685a9b97d6b8bf -> 
+  custom:scripting/monoscript/fileName/SavedGameData.cs: 4e934fbad4d52c0534819f62a2bce69a -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDatabaseStatsSection.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ParserInput.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SetAnimatorStateOnDialogueEvent.cs: e1fdc865355c475ede595f8ffba810fa -> 
+  custom:scripting/monoscript/fileName/FunctionValue.cs: b854c0cf1e503697a6ce08e3578cb801 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemAssetRenamerWindow.cs: 062ef1ae221237ae8680a1aa98def0bb -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Text.cs: a27487a220b2e263a090a4c9cab1f6b2 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LuaInterpreterExtensions.cs: f755ee07d5b4bb501abd4c21770db0fc -> 
+  custom:scripting/monoscript/fileName/PlayerSetupWizard.cs: a33457691d7a67263e5f60dc73adea56 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowActorSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandFade.cs: b853aa406e7fecbc67bb205c3745294f -> 
+  custom:scripting/monoscript/fileName/LocalizeUI.cs: 002944136174db04a6891fc17f9887c5 -> 
+  custom:scripting/monoscript/fileName/VariablePopupAttribute.cs: a626579971e26d8d863872c601487026 -> 
+  custom:scripting/monoscript/fileName/CheckPhysics2D.cs: f7c5a5cc0cf4ce443a8485137e703140 -> 
+  custom:scripting/monoscript/fileName/SequencerShortcutsEditor.cs: 1fe257c50a2b2833ea5249f3a687fbc4 -> 
+  custom:scripting/monoscript/fileName/EditModePlayerWindow.cs: f3a5457360f544801c6e13ead871d3c7 -> 
+  custom:scripting/monoscript/fileName/UnityUIQTEControls.cs: 56aaae0c5c36e2e0b2a614cb26e9964e -> 
+  custom:scripting/monoscript/fileName/SimpleController.cs: 2788c977eadea3a44f990b35a5a7f1eb -> 
+  custom:scripting/monoscript/fileName/UIDropdownField.cs: 4cd69f1f06cf09fd169ee252490a0c01 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemFields.cs: 5d8f45b9ff6b930834f03b06d39652c4 -> 
+  custom:scripting/monoscript/fileName/Conversation.cs: f5704d33caebdf0434082caa7609fd92 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowGUIStyles.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindow.cs: 10a280fe5af97d74aa9c92e35bc6d1f6 -> 
+  custom:scripting/monoscript/fileName/LocalizationToolsWindowPrefs.cs: 92486a045b7b601377738f256c0e6924 -> 
+  custom:scripting/monoscript/fileName/AbstractTypewriterEffect.cs: 1fcd812382b68a437dfb0d059a27e4fe -> 
+  custom:scripting/monoscript/fileName/LuaTableWrapper.cs: e6a3c106255a8ae91a4bc82d397aa746 -> 
+  custom:scripting/monoscript/fileName/SMSDialogueUI.cs: 13d150530c92d2c57c07fd8ff8e99206 -> 
+  custom:scripting/monoscript/fileName/QuestStateIndicator.cs: accc4e004efdc27265a0034018334f86 -> 
+  custom:scripting/monoscript/fileName/AlwaysFaceCamera.cs: 10f073262e05f20fbbbb80af65c70150 -> 
+  custom:scripting/monoscript/fileName/UIPanel.cs: 1a90b370ad3e1b71c92a8da6b6b6d57a -> 
+  custom:scripting/monoscript/fileName/RectExtensions.cs: fa5bc483f173021a6fb45c5eee112015 -> 
+  custom:scripting/monoscript/fileName/Args.cs: f1a9c668a1dd6448800a7613c3623509 -> 
+  custom:scripting/monoscript/fileName/FlashEffect.cs: 7cfe48b19ccc3b7df21b004680f32531 -> 
+  custom:scripting/monoscript/fileName/PersistentActiveDataMultiple.cs: 860a5bce16fe9057ec133bbd7d877ec5 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandGroupAttribute.cs: 26a0c981265c556eabb42f1a91fcf7a6 -> 
+  custom:scripting/monoscript/fileName/SpawnedObjectList.cs: 1b881dc4da75e3658bc846ab5266e9f2 -> 
+  custom:scripting/monoscript/fileName/DialogueEntryPopupDrawer.cs: d7d381d90184fd2b0b20dd992f891a1d -> 
+  custom:scripting/monoscript/fileName/SaveSystemTestMenu.cs: d3b2e6c7e26a7088339cbd25d696fe93 -> 
+  custom:scripting/monoscript/fileName/HelpBoxAttributeDrawer.cs: 4f86d589bc39c40b866178a759f83143 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowAssetSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TimerEffect.cs: 3a77a55311468e53132f0061da061fc7 -> 
+  custom:scripting/monoscript/fileName/DiskSavedGameDataStorerEditor.cs: 0ae3a795fc9955f9319737f7d6c106ec -> 
+  custom:scripting/monoscript/fileName/UIAnimationTransitions.cs: 412f3980f90b99f671b86a2424c4480b -> 
+  custom:scripting/monoscript/fileName/QueuedUIAlert.cs: 478f26c775c8b00cdc9004371250cdd4 -> 
+  custom:scripting/monoscript/fileName/MessageEventsEditor.cs: 957403df04950555b131cf5f2499f708 -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestTrackerEditor.cs: fde4de66d752ed6120f35cc409711e63 -> 
+  custom:scripting/monoscript/fileName/Usable.cs: 71f943bbdaadc2b5a05c7034f5dde912 -> 
+  custom:scripting/monoscript/fileName/DialogueTime.cs: 4f31d4bcd4fc1e59061b570e3c57b6c2 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowFieldMultinodeSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MessageSystemLogger.cs: 74c0f0e483209ace3ac85c54023b323c -> 
+  custom:scripting/monoscript/fileName/UnityTextFieldUI.cs: d13f72c73613aec0932f21f1a07db0e6 -> 
+  custom:scripting/monoscript/fileName/SequenceTrigger.cs: dd600763edfbfebbe825ea5e5febe447 -> 
+  custom:scripting/monoscript/fileName/ParamList.cs: 2a653170dc3b3986aae449cbc303a7f7 -> 
+  custom:scripting/monoscript/fileName/DataSerializer.cs: 6675a8d478826fd07b75c80eebdbf6ee -> 
+  custom:scripting/monoscript/fileName/ActiveSaver.cs: dc5ba6bfd767c04c21e769922848112f -> 
+  custom:scripting/monoscript/fileName/FormattedText.cs: 01d53eff133700726810120e357a146e -> 
+  custom:scripting/monoscript/fileName/StringFieldTextAreaAttribute.cs: 970efb782c37bdb6d99f046450f8ecb7 -> 
+  custom:scripting/monoscript/fileName/UnityUISelectorElements.cs: c4eeee8a07f3b2f4623213bad66d1ee7 -> 
+  custom:scripting/monoscript/fileName/IDialogueUI.cs: 3828b2d0f135bc1da43d0a77aa832d8d -> 
+  custom:scripting/monoscript/fileName/TemplateTools.cs: 40f9c80ba975188a961e78a072bed018 -> 
+  custom:scripting/monoscript/fileName/AbstractConverterWindow.cs: 448a802e95864dab1ee8963be49098d0 -> 
+  custom:scripting/monoscript/fileName/UniqueIDWindow.cs: 0fffe72b812f40ed38848c7a38570a40 -> 
+  custom:scripting/monoscript/fileName/LuaString.cs: 50fe81c427a35c7576399e268bd51e47 -> 
+  custom:scripting/monoscript/fileName/AbstractDialogueUI.cs: 6a76b5ee587f47f1106fac823e0c6f4d -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestTracker.cs: 9f8ecbde4589f383fc4136221b9f7c49 -> 
+  custom:scripting/monoscript/fileName/LuaNil.cs: e4a320cf6402ce3ec48640d399e6d375 -> 
+  custom:scripting/monoscript/fileName/OverrideUIBase.cs: ab183a4a677c039a54f406fce2d815ac -> 
+  custom:scripting/monoscript/fileName/DiskSavedGameDataStorer.cs: 190d34d404ca77cdcb5fb93c39da521a -> 
+  custom:scripting/monoscript/fileName/UnityDialogueControls.cs: b1d3dd2c6d9779cc41a6539eacedd82a -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestTitleButtonTemplate.cs: 42554d44cfe7ff1bc7350ec8436c7fbb -> 
+  custom:scripting/monoscript/fileName/DatabaseMerger.cs: 424c5e25b8505f56f082f320f9bc0be7 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemTriggerEventDrawer.cs: fed5b0e1ec2e4f1ee2a4a62da5cf582c -> 
+  custom:scripting/monoscript/fileName/UnitySubtitleControls.cs: f1570741d44348ea96eb6ac4d55a71ea -> 
+  custom:scripting/monoscript/fileName/CommonLibraryLua.cs: 868c23f2c9c55a83d57e80992baa858e -> 
+  custom:scripting/monoscript/fileName/Response.cs: f4683a4a8c4ab91b318ea00e095a123e -> 
+  custom:scripting/monoscript/fileName/StandardUIToggleTemplate.cs: cc81a849f95eb2f400409c861162e80a -> 
+  custom:scripting/monoscript/fileName/AbstractUIRoot.cs: a1adc42396fcc6170e99193cb7094a3c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor-firstpass: 086344e0dbbcf6d0e53b54c680158df7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/SequencerTools.cs: 142b9f641de85aa019e76985d543cc1b -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationTemplates.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemControllerHierarchyIcon.cs: 5c1af08a1ddc720b707c491ce6e1b46d -> 
+  custom:scripting/monoscript/fileName/LuaTable.cs: 6d7e064d8b78d528d51a95ca0a8ad38a -> 
+  custom:scripting/monoscript/fileName/StartSequenceOnDialogueEventEditor.cs: 836f92ccc845ce7c62f74af66b3ade92 -> 
+  custom:scripting/monoscript/fileName/DeselectPreviousOnPointerEnter.cs: 055144976c5ec34ae1b4ab019ed97792 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemAssetRenamerUtility.cs: 9097ade38ed1ecc52bf9ca97fb61a0af -> 
+  custom:scripting/monoscript/fileName/UsableUnityUI.cs: 84f1138a031c1ff1905c3f72aa1cc898 -> 
+  custom:scripting/monoscript/fileName/DictionaryExtensions.cs: 1e3301b495a62eb255a7f4d9f5050b9b -> 
+  custom:scripting/monoscript/fileName/ConversationControl.cs: 316bde714f4640a4789eced9f978c00c -> 
+  custom:scripting/monoscript/fileName/BarkGroupManager.cs: 183720c1e845f061a6e895abe7a04982 -> 
+  custom:scripting/monoscript/fileName/NumberLiteral.cs: 45f2c343f6d4976aaf3e4df8fcf8fd8d -> 
+  custom:scripting/monoscript/fileName/SetEnabledOnDialogueEventEditor.cs: b3ba210b5473628aae429b84a5bb091a -> 
+  custom:scripting/monoscript/fileName/CustomLuaFunctionInfo.cs: b13643c82d533cea135dab5d9d0d73d7 -> 
+  custom:scripting/monoscript/fileName/BarkTrigger.cs: 771e1af6812ae7f9e312f3a3468877ee -> 
+  custom:scripting/monoscript/fileName/JsonDataSerializer.cs: 5e711d4906513a00d813e06a0b06f6f8 -> 
+  custom:scripting/monoscript/fileName/Statement.cs: d64533d6645c690e613b7941b9aeee9e -> 
+  custom:scripting/monoscript/fileName/LuaTrigger.cs: 4238187b3041f87ea39bb6e9a1490f63 -> 
+  custom:scripting/monoscript/fileName/JsonImportWindow.cs: 8513707e9e94a92beaf19de0209b5a93 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowUpdateTemplateSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ConversationTrigger.cs: 6e5024bf588a2ab55491bd7dd59ef21f -> 
+  custom:scripting/monoscript/fileName/SetActiveOnDialogueEvent.cs: 78790da233eb4032d19de0f31d4b6678 -> 
+  custom:scripting/monoscript/fileName/StringFieldDrawer.cs: 47f7d776d409bbf68d617857fe60e860 -> 
+  custom:scripting/monoscript/fileName/Emphasis.cs: 85cca023f8c5d14123f55a52a8a0c4fe -> 
+  custom:scripting/monoscript/fileName/StandardUIFoldoutTemplate.cs: 5d675b61c9ee7530027e4ac476b7490c -> 
+  custom:scripting/monoscript/fileName/NavigateOnMouseClick.cs: eee595aca6997a209278b6e4fa688daf -> 
+  custom:scripting/monoscript/fileName/LuaWatchList.cs: 31b81b5fe1068c3888f87c83d63cf4fe -> 
+  custom:scripting/monoscript/fileName/IncrementOnDestroy.cs: 5e345c9a9b61cdc999f7338278331217 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestLogWindow.cs: 87c47d90c7f68cc90b08a5ec1e681cbf -> 
+  custom:scripting/monoscript/fileName/SequenceEditorTools.cs: 0ee8eab1f8eece9172c539654d91ddf6 -> 
+  custom:scripting/monoscript/fileName/MathLib.cs: 45e5ce8a0b7790735837b00caa662408 -> 
+  custom:scripting/monoscript/fileName/GUILabel.cs: 5d218642c42e6c14384066b69da29d61 -> 
+  custom:scripting/monoscript/fileName/TypewriterEffect.cs: 1be7a35c65d24e1f9f98c1e884e4a486 -> 
+  custom:scripting/monoscript/fileName/HelpBoxAttribute.cs: ab4f1a59d8a3ee3ad1fd172759f39875 -> 
+  custom:scripting/monoscript/fileName/GUIRoot.cs: 763a047ff11bbc41f31f6fca926dcb9e -> 
+  custom:scripting/monoscript/fileName/DialogueLua.cs: dacd1aefbd49a73d3b0a2a5df919b805 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: aab92c0b6293fd845d09ef246b97a516 -> 
+  custom:scripting/monoscript/fileName/UIScrollbarEnabler.cs: 67b3711f1937f031fefb38ca42c3a744 -> 
+  custom:scripting/monoscript/fileName/UnityUIBarkSubtitleDialogueUI.cs: 3fb45bf5f7c6402b07965551f9b40842 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowReorderIDs.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/LocalizationToolsWindow.cs: 56bb71fb5283bcda3f60fdf14451139b -> 
+  custom:scripting/monoscript/fileName/StandardUIInputField.cs: 45be8ab0f2fb7a5385bbec369b2c712f -> 
+  custom:scripting/monoscript/fileName/WelcomeWindow.cs: a6bd342d82a67a967d6f3dfafd224de5 -> 
+  custom:scripting/monoscript/fileName/ChatMapperConverter.cs: 1ad6d6a73a0ad98c9b9adc4e6df6b54b -> 
+  custom:scripting/monoscript/fileName/DialogueSystemTriggerEventAttribute.cs: 226a8e901b83996e682dd7f8519b645f -> 
+  custom:scripting/monoscript/fileName/TextInput.cs: 54cdabc6ace72465e54c715e64f75943 -> 
+  custom:scripting/monoscript/fileName/MoreGizmos.cs: eadc70e85070398b61f6c852a2969437 -> 
+  custom:scripting/monoscript/fileName/LinkUtility.cs: 18e1668976d79404c7c1a06f65fece40 -> 
+  custom:scripting/monoscript/fileName/DialogueEntry.cs: 5212a1784d1a4e3425a4fd95e4edc8e9 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemMenuItems.cs: ff8aef5ec4d54f69a640769e02e71d78 -> 
+  custom:scripting/monoscript/fileName/StandardUIQTEControls.cs: bb01e3ba41c7aa0a8424045dca03d9b0 -> 
+  custom:scripting/monoscript/fileName/Access.cs: c80aa3ac7415600f150b9f3c30b1b51f -> 
+  custom:scripting/monoscript/fileName/ConditionPriorityUtility.cs: 383528ac84eb58de6020e2f7da577a9e -> 
+  custom:scripting/monoscript/fileName/GUIImage.cs: 013a7eb349d11ccd3bcb7f930a478c7e -> 
+  custom:scripting/monoscript/fileName/ConversationController.cs: e236cfb418ef6f26a572a5c096feb790 -> 
+  custom:scripting/monoscript/fileName/GameTime.cs: 104d5f5d748c15658489748526d84876 -> 
+  custom:scripting/monoscript/fileName/AbstractDialogueUIControls.cs: 5d1a9c31b106485daa78fb430977a0a1 -> 
+  custom:scripting/monoscript/fileName/Condition.cs: 15437d0ff5b2d6e0045cf0837c4d34f1 -> 
+  custom:scripting/monoscript/fileName/ReturnStmt.cs: d990dede11ae278ca4d5c987e863fe89 -> 
+  custom:scripting/monoscript/fileName/QuestTriggerEditor.cs: c3bca23ada35ff4cf5e6bb8b6ff8ce45 -> 
+  custom:scripting/monoscript/fileName/ConversationStarter.cs: ce38056d4e216ee97afe5cc633ecea62 -> 
+  custom:scripting/monoscript/fileName/PersistentActiveData.cs: 1434b260f58b72866d691e9a2381052e -> 
+  custom:scripting/monoscript/fileName/DialogueActor.cs: c2e015f7680111a7bde2124d12a4e8be -> 
+  custom:scripting/monoscript/fileName/IfStmt.cs: bc636c9ac7297d6661b11df144ede82a -> 
+  custom:scripting/monoscript/fileName/AutoSize.cs: ee0b33825f1f363b3544b941490a6a91 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestGroupTemplate.cs: 3f3f223895cfdf11825382130498ee7f -> 
+  custom:scripting/monoscript/fileName/GameSaver.cs: c85426f0f4c04d66d1f9845c2a4a1931 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestTemplateAlternateDescriptions.cs: 6bed2a35c92a9d5de263c02af76f2a14 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAnimatorPlayWait.cs: 769d535d6a3e8c24f322a5e4374016d3 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemTriggerEditor.cs: d9e20c0138b06c77559cb266f5c1a6e4 -> 
+  custom:scripting/monoscript/fileName/TimedEvent.cs: a1f356387b32cb3d5569e14f7e8d001b -> 
+  custom:scripting/monoscript/fileName/VariableViewWindow.cs: 11b1c2ae8cbdda3047bbc3a7bb9a82b6 -> 
+  custom:scripting/monoscript/fileName/ConditionEditor.cs: 6158187e006cd08db233eb9667a47f5c -> 
+  custom:scripting/monoscript/fileName/CSVConverterWindow.cs: 439f468f9bb0f3337dc96234d26e61c4 -> 
+  custom:scripting/monoscript/fileName/ShowCursorWhileEnabled.cs: f82914756038ac54fb86e1b4ee026cec -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Item.cs: 3c4f65a595fa7dc690f310d69ccd99d5 -> 
+  custom:scripting/monoscript/fileName/EditorNote.cs: eb0d6b8f2730d389ac80ad2782231e53 -> 
+  custom:scripting/monoscript/fileName/ReferenceDatabaseDialogueEventEditor.cs: c389d68338f76252a163376a2aa5c8e3 -> 
+  custom:scripting/monoscript/fileName/Variable.cs: 4d479bbdfc03d7c25f6272fd3337dc62 -> 
+  custom:scripting/monoscript/fileName/GUIProgressBar.cs: 2ae3ab6431e28f939ae53a9f747ff9ff -> 
+  custom:scripting/monoscript/fileName/LevelManager.cs: fc31edb3fa0a5b57ea4129b7f1d69c75 -> 
+  custom:scripting/monoscript/fileName/Var.cs: f6b616e7140c2c109f290ef033cdefea -> 
+  custom:scripting/monoscript/fileName/SetQuestStateOnDialogueEventEditor.cs: 22a54e529abc29a297a298d83fd0420c -> 
+  custom:scripting/monoscript/fileName/BitMaskDrawer.cs: 237b52d531990f7f262faadaeaf43908 -> 
+  custom:scripting/monoscript/fileName/StandardUIButtonTemplate.cs: 787bdb6014b4db8d1f2a92b8a274db19 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowVariableSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/QuestPopupAttribute.cs: 642e4294ce26d92be9589328c3fdd519 -> 
+  custom:scripting/monoscript/fileName/NPCSetupWizard.cs: eff3dcc0c6801ed0554352f5f5b7b796 -> 
+  custom:scripting/monoscript/fileName/VoiceoverScriptExporter.cs: eb08330b8e7ff9431f3f82eaaa6ad898 -> 
+  custom:scripting/monoscript/fileName/DatabaseManager.cs: 39edd9851941dbc93ded54dcaf48c181 -> 
+  custom:scripting/monoscript/fileName/Function.cs: 83794a87b1463844346ef4c191c653b1 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Number.cs: 44c15b819fd5bc40577c7acb2ac7c715 -> 
+  custom:scripting/monoscript/fileName/SendMessageOnDialogueEvent.cs: 179cde8ed1aaf0b28c61693476c478b9 -> 
+  custom:scripting/monoscript/fileName/SetAnimationOnDialogueEvent.cs: 245ddb807a7cf194074e7e92325c66f5 -> 
+  custom:scripting/monoscript/fileName/AutoSaveLoad.cs: 75ecbd1a084f6fa3609f49e0cbe7d41c -> 
+  custom:scripting/monoscript/fileName/GUIScrollView.cs: d86b33ef32ff8a046588e0dcc0e7b0e9 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowWatchSection.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/CharacterTypeUtility.cs: e03519c6e9e50a5b869e13ffac6b265e -> 
+  custom:scripting/monoscript/fileName/RuntimeTypeUtility.cs: 95a5e9829c321e8dc89b035e688e15bb -> 
+  custom:scripting/monoscript/fileName/TypewriterUtility.cs: a53534e9c5d81ddd528da3ea070643b3 -> 
+  custom:scripting/monoscript/fileName/StandardDialogueUI.cs: 92cb1ff0ad58e90e81300c8405d4cd23 -> 
+  custom:scripting/monoscript/fileName/SymbolExtensions.cs: 4c6c057ba5f30883563ad950eb368822 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DialogueSystemEvents.cs: ead1c769993248cdaee83d5f7945f623 -> 
+  custom:scripting/monoscript/fileName/AssetFoldouts.cs: 96930a72a3821a7faa15d2fcdbab4a17 -> 
+  custom:scripting/monoscript/fileName/UIButtonKeyTrigger.cs: 208b0453518941cc76a29e3e43e788b9 -> 
+  custom:scripting/monoscript/fileName/Selector.cs: cdcae21ae4af63a85285c117da898be9 -> 
+  custom:scripting/monoscript/fileName/LuaConditionWizard.cs: 85b8cc5d091f898f879e59388db4139d -> 
+  custom:scripting/monoscript/fileName/DialogueActorEditor.cs: 2a27ad77142002bf96edf2eb8936a62f -> 
+  custom:scripting/monoscript/fileName/ConversationOverrideDisplaySettings.cs: 6767e9918468d660dc2533197f5cabde -> 
+  custom:scripting/monoscript/fileName/ItemPicker.cs: e69ac9ea6fa8de12abb51cdc9c2d61fe -> 
+  custom:scripting/monoscript/fileName/ItemPopupDrawer.cs: 579546427461cbd5e710ea3266d760fa -> 
+  custom:scripting/monoscript/fileName/QuestTrigger.cs: 249589fc2191e861016ac3f8ca92446f -> 
+  custom:scripting/monoscript/fileName/StandardUIDialogueControls.cs: 97dc09ac7a3eeddcca2ea0c9775fe414 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAnimatorLayer.cs: f525d6fd4e3196619c9f02c73902eeb8 -> 
+  custom:scripting/monoscript/fileName/LuaWizardBase.cs: b34eab4f95f01df8c077c2cc48bb6e15 -> 
+  custom:scripting/monoscript/fileName/DialogueEventStarter.cs: b9e482f49c03f0c88b3783495fc29d54 -> 
+  custom:scripting/monoscript/fileName/PersistentDestructible.cs: e789e6a510131a7b7f213216f33dbc2f -> 
+  custom:scripting/monoscript/fileName/LuaWatchers.cs: 721139bd6347d59327b20d9ef81bc6f8 -> 
+  custom:scripting/monoscript/fileName/StandardUsableUI.cs: 56f01859b7fff6817468514948a7e042 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowPrefs.cs: 321365603a628d462a3471cbffa5a578 -> 
+  custom:scripting/monoscript/fileName/LocalizedTextTableEditor.cs: fd56305af0edb4ced352acec2ef50798 -> 
+  custom:scripting/monoscript/fileName/TimedEventEditor.cs: 6ff03ad6649f926254f965d1f8580236 -> 
+  custom:scripting/monoscript/fileName/ItemValue.cs: 165dee6ebcb4148ff19aad6efdb67b4a -> 
+  custom:scripting/monoscript/fileName/RepeatStmt.cs: bcfaabb48c4fcce707cbfbf18045845e -> 
+  custom:scripting/monoscript/fileName/SequencerShortcuts.cs: 726c52be1851ade0ebaf3dfdea34d0b5 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Boolean.cs: 5c6e1bcca2a63fb3145b8a0d3234ca6c -> 
+  custom:scripting/monoscript/fileName/StandardUIContinueButtonFastForward.cs: 261a8c438586102fae0be5f4d7880735 -> 
+  custom:scripting/monoscript/fileName/TagMaskEvent.cs: d1317cd7bb80ef1bf89f227674f09e6c -> 
+  custom:scripting/monoscript/fileName/FunctionBody.cs: 295cb2c0ac8684d9dd2c4c94905e60fc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/StandardUIResponseMenuControls.cs: d95e9bddc9dd0e9c0640ca75792cd674 -> 
+  custom:scripting/monoscript/fileName/UnityUIBarkUI.cs: c8841dc90a0b345c9dac59b9afb76d6b -> 
+  custom:scripting/monoscript/fileName/UnityUIAlertControls.cs: 507c1652c581e8fee117b782c45d4912 -> 
+  custom:scripting/monoscript/fileName/OverrideUnityUIDialogueControls.cs: b74dc9d4d78d48a72b04028e751bf765 -> 
+  custom:scripting/monoscript/fileName/PlayerPrefsSavedGameDataStorer.cs: c192def95990455c773a767ab56f8682 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandZoom2D.cs: 079dc841115ee74926a114b3c8634164 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowLocationSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CSVUtility.cs: 2a23d0ab28bcfa3b130b8a57d7f94b6d -> 
+  custom:scripting/monoscript/fileName/BarkOnDialogueEvent.cs: a52068f0f5aebee9a6baac2afe48090f -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationNodeEditor.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/AssetUtility.cs: 128da031f5931d850e716382b181702b -> 56b81e5e2578818cf6f96d864707db64
+  custom:scripting/monoscript/fileName/UnityQTEControls.cs: 51fa8b348f2866199a8cf91f97e53e79 -> 
+  custom:scripting/monoscript/fileName/SpawnedObjectManager.cs: cd5cb440095543fe6944dfa9fa773194 -> 
+  custom:scripting/monoscript/fileName/StartConversationOnDialogueEventEditor.cs: 1ae8cd598728bab95d534a89b65b04ce -> 
+  custom:scripting/monoscript/fileName/AudioEffect.cs: 91331398187570fb51e64a45bb33e4e3 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Location.cs: 4d24d70c8ca67576ba31f2e9979225af -> 
+  custom:scripting/monoscript/fileName/CSVExporter.cs: b70466614f8bee2712bbc325db088dda -> 
+  custom:scripting/monoscript/fileName/SaveSystemMethods.cs: 84ec72b52bca40a042363fc6b4b696b0 -> 
+  custom:scripting/monoscript/fileName/SetEnabledOnDialogueEvent.cs: 681f74ce61f96fd6b809810accb2f7a7 -> 
+  custom:scripting/monoscript/fileName/Actor.cs: 828593121919b78f800957bfcb71a67d -> 
+  custom:scripting/monoscript/fileName/ScaledRect.cs: 50381d934aaf108d2faad63f069c62be -> 
+  custom:scripting/monoscript/fileName/FadeEffect.cs: 4a13b9240e80482e8f4861f2a95db71e -> 
+  custom:scripting/monoscript/fileName/Location.cs: 2efe5fd340e2fc163db6bef2bb142b45 -> 
+  custom:scripting/monoscript/fileName/PreloadActorPortraits.cs: c17867c269bf60fce340f51dde79f0a2 -> 
+  custom:scripting/monoscript/fileName/DialogueSystem1xTo2xUpdater.cs: c1dcd18d6d1ef17fdfc608c79a542362 -> 
+  custom:scripting/monoscript/fileName/EditorWindowTools.cs: 4f205a0c97a215d2341d3c1dd64292c7 -> 
+  custom:scripting/monoscript/fileName/QuestEntryPopupAttribute.cs: dbefa933b3b8c644a20530b5010d83de -> 
+  custom:scripting/monoscript/fileName/ItemPopupAttribute.cs: 2a534f98a1e1d0f9656992c24269f7fd -> 
+  custom:scripting/monoscript/fileName/StandardUISubtitlePanelEditor.cs: 04e2cec2505efb28eb627cbda3671381 -> 
+  custom:scripting/monoscript/fileName/DestructibleSaver.cs: 441076b454eec3fdd1593eae2bc2da5f -> 
+  custom:scripting/monoscript/fileName/OverrideDialogueUI.cs: 01562f8facb2440d0e26799991a5f2f3 -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestTrackTemplate.cs: d1cde86add72a46cfd9f93214291e3d4 -> 
+  custom:scripting/monoscript/fileName/DialogueDatabaseEditor.cs: 7ad939b63c85a40914cac587cc8d9258 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDelegates.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SelectedResponseEventArgs.cs: 9179088c49fbab3ca03b17d892e42f3f -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDatabaseIssuesCheckSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CoroutineUtility.cs: c987acd28de366a1291274ad84595e97 -> 
+  custom:scripting/monoscript/fileName/TextParserCommon.cs: 9c8028ade8ca3bc5e6cb09e5077e839f -> 
+  custom:scripting/monoscript/fileName/ScreenplayExporter.cs: 45225b6d32000b6ae89792b0de0f27b5 -> 
+  custom:scripting/monoscript/fileName/DoStmt.cs: e0046beea3efe51e7ce56f4d80749e4c -> 
+  custom:scripting/monoscript/fileName/GUIButton.cs: 07dde69bbd1012bab04fcd8203973b64 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType.cs: 0b1a4eab781ea6ecba672ddf48c7a620 -> 
+  custom:scripting/monoscript/fileName/ConversationPopupDrawer.cs: 08ab16a905460f5a647466af3cfa0fc9 -> 
+  custom:scripting/monoscript/fileName/ScaledValue.cs: e77e2f16b3788d571f554239d602642a -> 
+  custom:scripting/monoscript/fileName/KeyAccess.cs: 567fc55f0fa4f53778838ca8fe1a3f80 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDialogueTreeSection.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ConditionObserver.cs: f0d09d4ca8f2e90b6722776d1d4b34d6 -> 
+  custom:scripting/monoscript/fileName/ScenePortal.cs: 014bec31f5a781096670cb1a0bb781ae -> 
+  custom:scripting/monoscript/fileName/DialogueEntryPopupAttribute.cs: 383021117ec16544709ed15d5ff4a2aa -> 
+  custom:scripting/monoscript/fileName/BarkOnDialogueEventEditor.cs: 4616d2a03ccced24f3089b96c972c5db -> 
+  custom:scripting/monoscript/fileName/LocalizeUIText.cs: 5c3205b02be51cc62d2835d70b7a6f47 -> 
+  custom:scripting/monoscript/fileName/ChatMapperUtility.cs: 6d7f4fbfa8c3f2dcb2290749509ab9de -> 
+  custom:scripting/monoscript/fileName/BaseExpr.cs: 9602f429f75ce2dfa34940ec0e355d32 -> 
+  custom:scripting/monoscript/fileName/ConversationView.cs: 1f2cb891bd89a912cc4c8a3c5f019afc -> 
+  custom:scripting/monoscript/fileName/ChatMapperExporter.cs: ea8a67182f0cf30cb389a0805672ed85 -> 
+  custom:scripting/monoscript/fileName/SmoothCameraWithBumper.cs: b3e2db0952e29d849ce1f37b9c6b9c5e -> 
+  custom:scripting/monoscript/fileName/PositionSaver.cs: 0ec64600782dfed7c35dabf1c5ec0da3 -> 
+  custom:scripting/monoscript/fileName/ConditionPropertyDrawer.cs: fc202ac74c79ea011d866fcf830c795a -> 
+  custom:scripting/monoscript/fileName/VarName.cs: 3bb57413c4ed60f31931bdbe3f7f73c2 -> 
+  custom:scripting/monoscript/fileName/Expr.cs: 79e20de8847938a8c808393adebd6ddb -> 
+  custom:scripting/monoscript/fileName/UILocalizationManager.cs: a21843e95c3f1edb7eb186c53b5fb060 -> 
+  custom:scripting/monoscript/fileName/UnityDialogueUI.cs: 5cf0d906024e903cea9e11e0a6df7ad9 -> 
+  custom:scripting/monoscript/fileName/StandardUISubtitleControls.cs: 2d588d28c462b6e2b0dff1eddca5cc19 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemControllerEditor.cs: 6d97b038ccebbbc67d8cafac39730d4e -> 
+  custom:scripting/monoscript/fileName/Link.cs: 7900ac88accbbc9cd9f2972e875c9530 -> 
+  custom:scripting/monoscript/fileName/ChatMapperToDialogueDatabase.cs: 8690220b9ff3e00f993e99c25850f668 -> 
+  custom:scripting/monoscript/fileName/StandardUIIgnorePauseCodes.cs: 239182214cf51d49254521def8e995f9 -> 
+  custom:scripting/monoscript/fileName/Fit.cs: 8244a27d4153c4df6250afb8e1d2f1ef -> 
+  custom:scripting/monoscript/fileName/SequencerCommandLoadLevel.cs: 3ba85ea859b8a3c8a10aac9af7162d45 -> 
+  custom:scripting/monoscript/fileName/BreakStmt.cs: a94239967ef3eeef351954589e782b2a -> 
+  custom:scripting/monoscript/fileName/CollisionEvent.cs: 8e899a195cfdbb7598ca316a2599523f -> 
+  custom:scripting/monoscript/fileName/MessageEvents.cs: 9e136764df943cc03a4ec64f6e0ef0f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineCameraPriorityOnDialogueEvent.cs: 0e16159c9014915231063b072fbce10d -> 
+  custom:scripting/monoscript/fileName/BaseLib.cs: 2fe59f084ef40157afb342621e7e23cb -> 
+  custom:scripting/monoscript/fileName/LocalizedTextTable.cs: 3e29f8d9c02ce7c475c25688d9d07328 -> 
+  custom:scripting/monoscript/fileName/Chunk.cs: 6f5fa6627a1c900d412233a4fa598b91 -> 
+  custom:scripting/monoscript/fileName/UnityBarkUIOnGUI.cs: ee282c0e00e60a5f87f8239db3db3ec2 -> 
+  custom:scripting/monoscript/fileName/ImageAnimation.cs: 01ec1e97dc9f7b086ead3f3f54ea291d -> 
+  custom:scripting/monoscript/fileName/InputTrigger.cs: 540f3b8304247c7141f53594f6f414c4 -> 
+  custom:scripting/monoscript/fileName/UpdateLocalizedUITexts.cs: 08bff424b44fcdb8a633cdc919f6fe19 -> 
+  custom:scripting/monoscript/fileName/SetQuestStateOnDialogueEvent.cs: f23d5f9cfa1649f481310fbb678a3889 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Files.cs: 1c3095aa57e7c51821530b9bd23a5a07 -> 
+  custom:scripting/monoscript/fileName/ActorPopupDrawer.cs: 571b50f1149f1dd736cfae96e3faa193 -> 
+  custom:scripting/monoscript/fileName/UnityUIScrollbarEnabler.cs: 369694bffae2a20e8e1bf9dcf60edab1 -> 
+  custom:scripting/monoscript/fileName/ConversationPositionStack.cs: 13659dd9120264ac6bc09170164e826d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationNodeEditorAutoArrange.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationNodeEditorBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UseAnimatedPortraits.cs: 255d51edd036d5c1dd30dd35b9f855c6 -> 
+  custom:scripting/monoscript/fileName/MorePhysics2D.cs: 2af3198d93902250647f0b92fb98e94e -> 
+  custom:scripting/monoscript/fileName/NameAccess.cs: c294428ef00bd9f765e5ada974e07d72 -> 
+  custom:scripting/monoscript/fileName/AuroraConverterWindowDisabled.cs: 4573dee8f8df0464c36bd7239a288b31 -> 
+  custom:scripting/monoscript/fileName/UIInputField.cs: ea684552cb4b8b3d090abd56f44b9710 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Actor.cs: 81d00da8c2dbfdf3af816e87586280e6 -> 
+  custom:scripting/monoscript/fileName/ShowCursorOnConversation.cs: b0b6fa9100c70c1a441fca4672d869d2 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandSwitchCamera.cs: 7c2c426a64f5ac4701c888dd110a0541 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/StandardUIResponseButton.cs: 21d584897c5f3e0553a0439b87064339 -> 
+  custom:scripting/monoscript/fileName/OperatorExpr.cs: 923db23e5205f1f6cbdc6547fae07216 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestTrackTemplate.cs: 7b8637e02eb2646952ac02927628c9b2 -> 
+  custom:scripting/monoscript/fileName/Term.cs: 2a12dbc1e88f633eb97ec146b6129c78 -> 
+  custom:scripting/monoscript/fileName/TagMaskDrawer.cs: 13705c8fa9409cd3e1dbbe2f64d75329 -> 
+  custom:scripting/monoscript/fileName/Asset.cs: 25924ee67c413e189036490437ddd63d -> 
+  custom:scripting/monoscript/fileName/UIUtility.cs: cd9b7864df09ef9ca4927ad3f7fd56f2 -> 
+  custom:scripting/monoscript/fileName/GUIVisibleControl.cs: baafa854d5e8a35db73ce25130e58767 -> 
+  custom:scripting/monoscript/fileName/TypeUtility.cs: 57a642f8b2543e0df2a359c80a93a142 -> 697cbcee997ea80178c464c8fd931a69
+  custom:scripting/monoscript/fileName/StandardUISubtitlePanel.cs: 4ef63e5cb466f7575f56b704f8ac51c5 -> 
+  custom:scripting/monoscript/fileName/LuaMethodFunction.cs: ea9a0068d5c03b4d73e018ed1bd0407a -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowLocalization.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemTrigger.cs: b23380b157818830c074ce4b792aa4b6 -> 
+  custom:scripting/monoscript/fileName/LuaConditionsWizardAttribute.cs: a2aa0490ae6d5776db64dea80a48aa30 -> 
+  custom:scripting/monoscript/fileName/SetAnimatorStateOnDialogueEventEditor.cs: 157f91760372de4d131400ad68b1d92e -> 
+  custom:scripting/monoscript/fileName/BitMaskAttribute.cs: bafaf59f57963e2fdeba063330cd3ad5 -> 
+  custom:scripting/monoscript/fileName/AbstractUIResponseMenuControls.cs: 999eb07f842d5bf1ce4b956fb6ff1d2b -> 
+  custom:scripting/monoscript/fileName/LoadingScreenProgressBar.cs: 14ee65e1fc4ff46515d547387a3b93ca -> 
+  custom:scripting/monoscript/fileName/AbstractUIControls.cs: a293ab45fb2fc2d62d18d8dabd33bd95 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/ConditionObserverEditor.cs: 0a2add25f313639f735d9d568dc8e89e -> 
+  custom:scripting/monoscript/fileName/ChatMapperProject.cs: c0e25f2f028e33acfc0b17fd8f57bd5c -> 
+  custom:scripting/monoscript/fileName/DialogueSystemMessages.cs: b09b891c2b98a5a44e086aff380ca343 -> 
+  custom:scripting/monoscript/fileName/ConversationTriggerEditor.cs: 5a3ae65dd90a74b0023303a84f6c7d6f -> 
+  custom:scripting/monoscript/fileName/IStandardDialogueUI.cs: 7c3a44ddc7c814aa545ace7fad7335cb -> 
+  custom:scripting/monoscript/fileName/SequencerCommandTextInput.cs: f1c70d3c78873f6e3ae145d1d8834b05 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowNoAI.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAudioWWW.cs: 1c99a5bb6008e0a1f2b56b13e6411c22 -> 
+  custom:scripting/monoscript/fileName/AbstractUIAlertControls.cs: 0552d69459f61646fcf5358556b4ee5a -> 
+  custom:scripting/monoscript/fileName/SequencerCommandMoveTo.cs: 2a69f2bc4921aaac308a0eb9744bf87c -> 
+  custom:scripting/monoscript/fileName/OSLib.cs: 6c7e386d7651e497903a8ea999d88218 -> 
+  custom:scripting/monoscript/fileName/QuestTracker.cs: 4d5480c823370a7aaf8a91a1e7127f50 -> 
+  custom:scripting/monoscript/fileName/PauseGameOnConversation.cs: 6e0874651759167769a5e1007d3db66e -> 
+  custom:scripting/monoscript/fileName/StartSequenceOnDialogueEvent.cs: 18272a2de41ab8ee8f53b8362cb5fdf3 -> 
+  custom:scripting/monoscript/fileName/RelationsInspectorLink.cs: 4ebdf31251a6fb5a8541104cafa011c0 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DataSynchronizer.cs: de24c396b9debada92d9284eb2252099 -> 
+  custom:scripting/monoscript/fileName/SequencerKeywords.cs: df21f41a48363370d04bb22e050075fa -> 
+  custom:scripting/monoscript/fileName/Vector3SerializationSurrogate.cs: adb25b8f1b413e5ebf3454b4f2f6e54a -> 
+  custom:scripting/monoscript/fileName/DialogueTriggerEventAttribute.cs: 58eda652bcd3cb6ca75c65cacaa5db31 -> 
+  custom:scripting/monoscript/fileName/GUIControl.cs: 864ca7f5d0639a6b24a13a35e7d5a02b -> 
+  custom:scripting/monoscript/fileName/AlertTrigger.cs: 469aa60292b06790b7d1f3e5dbfb7193 -> 
+  custom:scripting/monoscript/fileName/StopConversationIfTooFar.cs: 2d9aa3a2e67f9b69e334ce770c483ebb -> 
+  custom:scripting/monoscript/fileName/XmlContentExport_FullProject_4_0.cs: 54d309b4cd1b6aba5fec455d9952727e -> 
+  custom:scripting/monoscript/fileName/EnabledSaver.cs: 4e801e78dba99b7c9b83774eaf9e65cc -> 
+  custom:scripting/monoscript/fileName/ConversationPopupAttribute.cs: 15568bedcd82deb2442dd6222ee7f2e3 -> 
+  custom:scripting/monoscript/fileName/AnimatedPortrait.cs: 03825b793cde52daf38e0a1cd5e36de3 -> 
+  custom:scripting/monoscript/fileName/QuestPopupDrawer.cs: 9be88d8428b38808bc4750ce971470e9 -> 
+  custom:scripting/monoscript/fileName/EnablePhysics2DMenuItem.cs: 104d31816a64cf55b8780a808fe5f37b -> 
+  custom:scripting/monoscript/fileName/ProximitySelector.cs: d829218c9c4e96177bd789ccff469ccf -> 
+  custom:scripting/monoscript/fileName/GUIEffect.cs: e60086fd241b8e444f19c021a16aca1c -> 
+  custom:scripting/monoscript/fileName/DisappearEvent.cs: 746f991418b32bc74c131b2c0a95955b -> 
+  custom:scripting/monoscript/fileName/Toolbar.cs: 335a8990200f3eb108b28b3b4c259459 -> a885dcc36fdcf651d9a93e50c6fd27ba
+  custom:scripting/monoscript/fileName/ConversationPicker.cs: 6d0ab8d6f484b7251b31f8d4091d79a9 -> 
+  custom:scripting/monoscript/fileName/GroupExpr.cs: b81f74439c39189a6310f907e6a53f45 -> 
+  custom:scripting/monoscript/fileName/QuestStateListener.cs: 241bf6880b9bcd1a33a4eafd595b9114 -> 
+  custom:scripting/monoscript/fileName/SlideEffect.cs: 4d74a9b417115be57799a14f65215707 -> 
+  custom:scripting/monoscript/fileName/UITools.cs: 78655811e21941b1cbdc0cb48b215b0a -> 
+  custom:scripting/monoscript/fileName/PanelNumberUtility.cs: 2f2197fa8e686f52acd60dc040909dbb -> 
+  custom:scripting/monoscript/fileName/QuestConditionPropertyDrawer.cs: a787f70b37a1d6ef2ffb33e21c065ea0 -> 
+  custom:scripting/monoscript/fileName/SequenceParser.cs: da81e93c5500415e17077a8bca26167b -> 
+  custom:scripting/monoscript/fileName/SequenceTriggerEditor.cs: 122830d269f256ee5e3c2c3c69b6390e -> 
+  custom:scripting/monoscript/fileName/ArticyConverterWindowDisabled.cs: 86d9763c30aacb5ae65a3a74c60a976e -> 
+  custom:scripting/monoscript/fileName/DialogueDebug.cs: 3f743be47efeae7568214ab178e2617d -> 
+  custom:scripting/monoscript/fileName/AbstractUISubtitleControls.cs: bd7aa1376ef230815fd7d165604c5a1d -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Localization.cs: 1c429985cee251279b97889ab96c21f4 -> 
+  custom:scripting/monoscript/fileName/SelectorFollowTarget.cs: 7ee914c64b72f6e46ba4d96621f6d812 -> 
+  custom:scripting/monoscript/fileName/UnityUIResponseButton.cs: 73ecd1c48c14f1ba934611fd171d2fb6 -> 
+  custom:scripting/monoscript/fileName/SendMessageOnDialogueEventEditor.cs: 74df48198734b0182171c4c061f0bb42 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowMain.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/BarkOnIdle.cs: 5b811133b4d4e98cdc0c4f862de13bad -> 
+  custom:scripting/monoscript/fileName/LuaScriptWizardDrawer.cs: c212d70b6859820787a83f62a876f48e -> 
+  custom:scripting/monoscript/fileName/SequencerMessages.cs: e1b7419a735313c4ec311b2acf8f05fb -> 
+  custom:scripting/monoscript/fileName/MoreEditorGuiUtility.cs: 539540a9286d2345e111978cbb016267 -> 
+  custom:scripting/monoscript/fileName/ActorSubtitleColor.cs: 82c291639fe1bb5d92b336963a4db210 -> 
+  custom:scripting/monoscript/fileName/Localization.cs: 7f00b1d5b05e768420c3206d9f2b778d -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 69ff91542b03080f5d8b8c550a3d3256 -> 
+  custom:scripting/monoscript/fileName/UnityDialogueUIControls.cs: 0984a9ba74faa108ca83495ffabaa57a -> 
+  custom:scripting/monoscript/fileName/LocalizedFonts.cs: 4aa77260fe2fe59b12e8506fcdc0f3c5 -> 
+  custom:scripting/monoscript/fileName/ContinueButtonFastForward.cs: 99507f4a354d9e6976d5ce6ee28e834a -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectUtility.cs: 96070b89d9ca6d37367db8762e269410 -> 
+  custom:scripting/monoscript/fileName/VariableArg.cs: 37bf2782b5aed4a1ab87dcfce917b9c8 -> 
+  custom:scripting/monoscript/fileName/StringLiteral.cs: e81afed936a1f46e94e0729660560f9f -> 
+  custom:scripting/monoscript/fileName/GUIImageParams.cs: be553d606d2b9688769e5f261208b286 -> 
+  custom:scripting/monoscript/fileName/BarkStarter.cs: 550751ac8613ef2805b8371d5b334508 -> 
+  custom:scripting/monoscript/fileName/TextlessBarkUI.cs: 714515dd9826559273b8fa94fb7572ad -> 
+  custom:scripting/monoscript/fileName/SetAnimationOnDialogueEventEditor.cs: 0eb7ab101308985a656819dbf34747e1 -> 
+  custom:scripting/monoscript/fileName/PersistentPositionData.cs: 86de2f6b42610320eb771ab3c344f8c7 -> 
+  custom:scripting/monoscript/fileName/QuestLog.cs: 59d06f784c70cae92c03a19320d2e594 -> 
+  custom:scripting/monoscript/fileName/DatabaseUtility.cs: a5cdf7b30d4f51dc2b6b02e207b77254 -> 
+  custom:scripting/monoscript/fileName/QuaternionSerializationSurrogate.cs: 9d865efadd3ac9e98e30a44e2fc4ff77 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestTemplate.cs: f5167163d52a47912a970c33f20ec1fb -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestTemplateAlternateDescriptions.cs: a5a889ccfa48ba2934f056af7866eb4f -> 
+  custom:scripting/monoscript/fileName/DialogueSystemController.cs: 9c843bf7184871f6c0839cc75f5c0bb2 -> 
+  custom:scripting/monoscript/fileName/RangeTrigger.cs: e33c0113015a379f3a51327d1076dc00 -> 
+  custom:scripting/monoscript/fileName/ComponentUtility.cs: 96e5372f60034cadbc8e25cacc5f4dd3 -> 
+  custom:scripting/monoscript/fileName/Yarn2ImporterWindowDisabled.cs: c5375e2dd6170fb222481b7a34ca43a1 -> 
+  custom:scripting/monoscript/fileName/UnityUISelectorDisplay.cs: 888d260ecd9a2c1440d0be86e3dbe977 -> 
+  custom:scripting/monoscript/fileName/TextTableEditor.cs: fd7ac2f4d077ae79a8ab5a4cde2bba12 -> 
+  custom:scripting/monoscript/fileName/EncodingType.cs: 0c9b89a6b4b387fc16fdfc910d5d6597 -> 
+  custom:scripting/monoscript/fileName/QuestGroupRecord.cs: 3dab15e1a7e246852fbade4cd254d250 -> 
+  custom:scripting/monoscript/fileName/PersistentActiveDataMultipleEditor.cs: 8b9d91466bb3defc9c3b7469059f2a0e -> 
+  custom:scripting/monoscript/fileName/OperTable.cs: fad999836b4dc3939f2a3310a150afb6 -> 
+  custom:scripting/monoscript/fileName/CharacterInfo.cs: 0fb556b206ad205a0d203c862440376f -> 
+  custom:scripting/monoscript/fileName/PrimaryExpr.cs: 5ce4972f022cca445b97894fdfad99cb -> 
+  custom:scripting/monoscript/fileName/ITextFieldUI.cs: ed82cc64c8980fe410993a6a89b44af5 -> 
+  custom:scripting/monoscript/fileName/CustomFieldTypeService.cs: ad4f072fb4262f8954beb84e93e88eed -> 
+  custom:scripting/monoscript/fileName/ConversationStateSaver.cs: 9f574bb50ed0f4f68663a1e663eaa702 -> 
+  custom:scripting/monoscript/fileName/ArcweaveImporterWindowDisabled.cs: 97eb342ca928ad3740a7a2b8a960dd71 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowFieldsSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ActiveConversationRecord.cs: 81d14b723ff72737c99accf2959da743 -> 
+  custom:scripting/monoscript/fileName/UnityUIDialogueUI.cs: fbf77d170cd0f08092395ef313a1f359 -> 
+  custom:scripting/monoscript/fileName/UnityBarkUI.cs: d08a5732db3342984e2e966cff3cf624 -> 
+  custom:scripting/monoscript/fileName/DisplaySettings.cs: 313d9fabdc82503477fbcafeeabb4e7d -> 
+  custom:scripting/monoscript/fileName/StandardUIMenuPanelEditor.cs: 1d51e45fc05ea2eea3c28dd07abe8750 -> 
+  custom:scripting/monoscript/fileName/ForStmt.cs: 2dc7118712ee073144359e531ce44045 -> 
+  custom:scripting/monoscript/fileName/KeyValue.cs: a81d1170f4c79fa7557917659a647d75 -> 
+  custom:scripting/monoscript/fileName/SaverEditor.cs: fd33fd03cee204d09570eb1ac76b5a54 -> 
+  custom:scripting/monoscript/fileName/PersistentActiveDataEditor.cs: 297c9baa9df050644619fb56b080a7cd -> 
+  custom:scripting/monoscript/fileName/DontDestroyGameObject.cs: 43d5bc73677c46b2ed663d5e3c03a428 -> 
+  custom:scripting/monoscript/fileName/ConversationModel.cs: 8722e5ef06d7d08854125a49b0debc07 -> 
+  custom:scripting/monoscript/fileName/OverrideActorName.cs: 9ef77557fc0799c0c4802c827de59bfd -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestTracker.cs: da9e9e6432747d05ccbf7e1b036e473f -> 
+  custom:scripting/monoscript/fileName/SetActiveOnDialogueEventEditor.cs: f28e770cd762f9cec847f1df9b05c25d -> 
+  custom:scripting/monoscript/fileName/LocalizeTextMesh.cs: a286fa44c52962336d08e443d36356ba -> 
+  custom:scripting/monoscript/fileName/BarkTriggerEditor.cs: 52f638bd27bb8d11d355ca5613c28cbe -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowLanguageList.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/QuestStateDrawer.cs: 3ae4d28caea22eb0c7be04ca96aa7a48 -> 
+  custom:scripting/monoscript/fileName/CheckInputManagerSettings.cs: cac38f9d52b317a87b6d569267bdb70e -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: 3ba0db152b6368f45d3a23a5281988b3 -> e35012b3e8f0b9a62e22595c530c4b09
+  custom:scripting/monoscript/fileName/UnityUIResponseMenuControls.cs: 3f12d4f951ecb524e818c105d4042808 -> 
+  custom:scripting/monoscript/fileName/UIShowHideController.cs: f5dec34621bb0ac30a9812ec6e0fdf08 -> 
+  custom:scripting/monoscript/fileName/Assignment.cs: f72b998094314cadaccb6d54bbf250c1 -> e7e95b15b1817de1e276ec84e96c85f7
+  custom:scripting/monoscript/fileName/IBarkUI.cs: 8e79562319723a6362287de97631b5a7 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowUndo.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ElseifBlock.cs: f6bc22c96a0e256051fe6f3af5ead4f2 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDialogueTreeSearchBar.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/InputDeviceManagerEditor.cs: 5e6cd54003c6dd30d6bd0b0f8023b06b -> 
+  custom:scripting/monoscript/fileName/UnityUIColorText.cs: 130307d5b6aeda70e08aca36d4ae7593 -> 
+  custom:scripting/monoscript/fileName/DemoMenu.cs: c250aa5ec95815c8c332f08c70cf2f6b -> 
+  custom:scripting/monoscript/fileName/QuestLogWindowHotkey.cs: 407ce7590755607f3623a6afcab1098b -> 
+  custom:scripting/monoscript/fileName/SequenceStarter.cs: 91cd61eb7934f1224f448591c0e0519d -> 
+  custom:scripting/monoscript/fileName/LuaInterpreter.cs: 519c257b2235556d491883674cd29107 -> 
+  custom:scripting/monoscript/fileName/GameObjectUtility.cs: 9402d87985fe5c70ba7c9f4462093d7a -> 
+  custom:scripting/monoscript/fileName/AssetBundleManager.cs: bad2e830add95cb98b57de421b70241b -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDatabaseSection.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/LocalFunc.cs: e7a70324483653fe39260b9bd0699d5b -> 
+  custom:scripting/monoscript/fileName/LocationPopupDrawer.cs: 60f509c109b4228b184bd67b70d1869f -> 
+  custom:scripting/monoscript/fileName/QuestPicker.cs: 015d4d8ca6cdd097c0b436c3dca72128 -> 
+  custom:scripting/monoscript/fileName/EmphasisSetting.cs: 822605fcc577970bfe598a1ded8937a7 -> 
+  custom:scripting/monoscript/fileName/UIAnimatorMonitor.cs: 486660e9394c48ac7cd510bcc15fe8d0 -> 
+  custom:scripting/monoscript/fileName/DieOnTakeDamage.cs: 8c08126256ff03a0750be0cd36ee5534 -> 
+  custom:scripting/monoscript/fileName/SelectorUseStandardUIElements.cs: e09025d0ee4a219452179c5774e77702 -> 
+  custom:scripting/monoscript/fileName/EntryGroup.cs: 53abd8d3e4d2f44d7caf1f3c210ede52 -> 
+  custom:scripting/monoscript/fileName/AbstractBarkUI.cs: 7dcbcdc0720fb2afbcc7c9c566d81a70 -> 
+  custom:scripting/monoscript/fileName/ExprStmt.cs: 69910ec343b9ec19d3fc40eda2593340 -> 
+  custom:scripting/monoscript/fileName/StartConversationOnDialogueEvent.cs: 7d2291a876fe09e62b8c0cc371ec57f9 -> 
+  custom:scripting/monoscript/fileName/StringFieldTextAreaAttributeDrawer.cs: 91736bdcdeab9c0f4442cf136a9ddee6 -> 
+  custom:scripting/monoscript/fileName/NameValue.cs: b48efcdc0b4c74cf61f9768621d48fbf -> 
+  custom:scripting/monoscript/fileName/StringField.cs: 320f26a0922727b12ebce58ea25db5f2 -> 
+  custom:scripting/monoscript/fileName/BarkGroupManagerEditor.cs: fd172d9c51cf4c08624ef1e1c7fb1612 -> 
+  custom:scripting/monoscript/fileName/Sequencer.cs: a65fd4ef66f320a80bc1b38a64a801b7 -> 
+  custom:scripting/monoscript/fileName/SpawnedObject.cs: c56e0b9cc00f758c37f5fc88ae62ab27 -> 
+  custom:scripting/monoscript/fileName/BringSubtitlePanelToFrontOnFocus.cs: 3f8efb2130c43e8a67d2d3276f43f7b1 -> 
+  custom:scripting/monoscript/fileName/ActorPopupAttribute.cs: 9b65a0d9aa5252687f7a6b6846f12983 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandLookAt.cs: 2ecbc8a98c961b8ef870ee4845843f38 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAnimation.cs: 6d3e49cab12121b045dcbdeb0e2847eb -> 
+  custom:scripting/monoscript/fileName/SavedGameDataStorer.cs: 9608b4deec63b3b99700be30914266b7 -> 
+  custom:scripting/monoscript/fileName/ParameterEvents.cs: ab0897f2617b40d851906854f8fa2d9e -> 
+  custom:scripting/monoscript/fileName/Lua.cs: 6fc49bd1d4e99b5285f2e83d85d01f0f -> 
+  custom:scripting/monoscript/fileName/StandardUIRoot.cs: e4fbf6cdb2741079d9244e28c63caa3f -> 
+  custom:scripting/monoscript/fileName/AnimatorSaver.cs: 054402ffcd7005076a8b5b0edf9cd100 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandQTE.cs: df21989b78cfc0d370cfc5a7722a6a02 -> 
+  custom:scripting/monoscript/fileName/TableLib.cs: fe5e0bded503682fc990664201db2354 -> 
+  custom:scripting/monoscript/fileName/SetComponentEnabledOnDialogueEvent.cs: bdddb5c18d4d308836fd1d452c77f77d -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UnityUISubtitleControls.cs: 8c5fb7623831036a2415bb908639dd89 -> 
+  custom:scripting/monoscript/fileName/InputDeviceManager.cs: 10b3c41c00dd589f5dc05816926667df -> 
+  custom:scripting/monoscript/fileName/EditorGUIZoomArea.cs: 0b10ff06c4212e360c0a6bffb9bb6fa5 -> 
+  custom:scripting/monoscript/fileName/LuaMultiValue.cs: 422b2a53b45db88be1dd7e7d5b5931f6 -> 
+  custom:scripting/monoscript/fileName/AbstractUIQTEControls.cs: 4ffee5b32f29f368fe5ee21e45e89747 -> 
+  custom:scripting/monoscript/fileName/TextTableEditorWindow.cs: b453915cac51f588a931549b2ba9c2ab -> 
+  custom:scripting/monoscript/fileName/WhileStmt.cs: 323e79da8355183cac7176b4a77d4566 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestTitle.cs: 62964bfc5a73b3a182c4d30d7a10d0dd -> 
+  custom:scripting/monoscript/fileName/TagMask.cs: 411cf9574a82b6d5b3c3bc209185024d -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAudioWait.cs: 5af0f9d1f6b37e4649524238661e11be -> 
+  custom:scripting/monoscript/fileName/UnityResponseMenuControls.cs: 9c51f15aa28359d7c8b8e45adfe88f13 -> 
+  custom:scripting/monoscript/fileName/ActorPicker.cs: 1b6d2e8fffe4101ae04c430559b8b2ce -> 
+  custom:scripting/monoscript/fileName/Tuple.cs: 92761e83c163df6269d84a1f9d37d152 -> 
+  custom:scripting/monoscript/fileName/InstantiatePrefabs.cs: 45cbe72d5048c72266077807a19d600b -> 
+  custom:scripting/monoscript/fileName/LuaValue.cs: 5e90c8c4b05364001f5099350122e869 -> 
+  custom:scripting/monoscript/fileName/UnityUIDialogueControls.cs: b6b48f22301192cd2426159bf79d62ca -> 
+  custom:scripting/monoscript/fileName/SelectionDelegates.cs: 29553b483f6b5e924c7d8d843803395f -> 
+  custom:scripting/monoscript/fileName/TextTableMassExportImportWindow.cs: c538c5c6749b71a0cd632630af939fcb -> 
+  custom:scripting/monoscript/fileName/UITextColor.cs: bc322da7e31d3ce4a24d0e3fd4d93b86 -> 
+  custom:scripting/monoscript/fileName/UnityGUIQuestLogWindow.cs: 70b4adb6200c937b1e9b1df2e5a4be0b -> 
+  custom:scripting/monoscript/fileName/UILocalizationManagerEditor.cs: 22c7a65fed8a70ae20074ab5d0adaa09 -> 
+  custom:scripting/monoscript/fileName/LuaOnDialogueEventEditor.cs: 4f42d484365d623ea0f32217472820fd -> 
+  custom:scripting/monoscript/fileName/SetEventSystem.cs: ce5d16662311563ec48c22954d0c85d1 -> 
+  custom:scripting/monoscript/fileName/NilLiteral.cs: a746ac3cbf97f513d6f9ab335a6f4798 -> 
+  custom:scripting/monoscript/fileName/MessageSystem.cs: 3b74410877c0931615b717fcb3aad389 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandVoice.cs: edf039e7e18ab11f180b1177082df192 -> 
+  custom:scripting/monoscript/fileName/SaveSystemEvents.cs: ed8670d91082695dc7197432bbfa3e31 -> 
+  custom:scripting/monoscript/fileName/StringLib.cs: dd45575249d0693a54f506798e8932e6 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandLiveCamera.cs: 98c6f26cda623a2b6df610adb00ad452 -> 
+  custom:scripting/monoscript/fileName/LuaScriptWizard.cs: c2b3aa72c391941638c79f3a64b6d817 -> 
+  custom:scripting/monoscript/fileName/PersistentDataManager.cs: ecbd78aad93170b2d581a0180b2cf78c -> 
+  custom:scripting/monoscript/fileName/DialogueManagerWizard.cs: a338e4f4aaadffc0019fc09417277d2e -> 
+  custom:scripting/monoscript/fileName/EnableOnStart.cs: 3ceecfe12996c8afc59fb915698b7236 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowItemSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DefaultCameraAngle.cs: aaea9df1c19e5bcfee542ee851b15f19 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAnimatorFloat.cs: 8e35e06798d3786949f6723ec2549298 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorStyles.cs: 7841b2002ca01a39b3dae31d5611722b -> 
+  custom:scripting/monoscript/fileName/CameraAngleEditor.cs: 6277a5d0cdb81c499d48a9851dac33ba -> 
+  custom:scripting/monoscript/fileName/GUITextField.cs: 07a2879433c842cb33739b66628aadf3 -> 
+  custom:scripting/monoscript/fileName/StandardUIInstancedContentManager.cs: 5c5a7f9ec135d43f41a55f871f273add -> 
+  custom:scripting/monoscript/fileName/ScriptingSymbolNames.cs: a1f24c94eefe80bf8dab26fb5bb50e33 -> 
+  custom:scripting/monoscript/fileName/AbstractUsableUI.cs: bb53d59934598547980e6ef3c6670808 -> 
+  custom:scripting/monoscript/fileName/Item.cs: 79cadb7e00e609ff297a58970578ea42 -> edfd25bbe8f561e55c7415f9c3adacfe
+  custom:scripting/monoscript/fileName/MultiEnabledSaver.cs: 7c2dc2f61dd502201fb7fb3593a925b1 -> 
+  custom:scripting/monoscript/fileName/BarkGroupMember.cs: bfa7a2c2fa914be0e0b7687d3581ad6f -> 
+  custom:scripting/monoscript/fileName/IEventSystemUser.cs: b604cdfd9464abde755fe9f33524b0a0 -> 
+  custom:scripting/monoscript/fileName/ToggleUtility.cs: ea592b8c2da8a20403fdcc500d250e94 -> 
+  custom:scripting/monoscript/fileName/InputDeviceMethods.cs: 863b452f789c16f5ed525b188ae88db1 -> 
+  custom:scripting/monoscript/fileName/Subtitle.cs: 5ed435f8fd99bddafbcf105bc83f4a66 -> 
+  custom:scripting/monoscript/fileName/SetLocalizedFont.cs: 5cb4de5e9945fbcb3ebeedfef182ade0 -> 
+  custom:scripting/monoscript/fileName/BoolLiteral.cs: d0aae955961cbc7963779328b46535b9 -> 
+  custom:scripting/monoscript/fileName/QueuedSequencerCommand.cs: f7c998316cab6642aba5afdeac067962 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_QuestState.cs: 24a23165e98137cb2eb1e4a69e44cc8a -> 
+  custom:scripting/monoscript/fileName/SaveSystem.cs: 9ba0fd9ab2de21ecd30f7453769668dd -> 
+  custom:scripting/monoscript/fileName/SequencerCommand.cs: 5a5ae2e2b36ec4eab9bc048967cd74f9 -> 
+  custom:scripting/monoscript/fileName/StandardUISelectorElements.cs: a58a2dd0cea456a52f5b6ed9afdb0ac0 -> 
+  custom:scripting/monoscript/fileName/ActOnDialogueEvent.cs: 48b5efbb6e1c89190ec09ba98060a0d1 -> 
+  custom:scripting/monoscript/fileName/ConversationState.cs: cf95976061782dc1a5314af3b87ecca1 -> 
+  custom:scripting/monoscript/fileName/LODManager.cs: 1b770c7da4c5a8a872cd12e38e76b379 -> 
+  custom:scripting/monoscript/fileName/StandardUIColorText.cs: 8b37651671841db3012cc29dd1354b32 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowTemplateSection.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/AlertTriggerEditor.cs: 86e74d7b452b882fbd460226b2ef5644 -> 
+  custom:scripting/monoscript/fileName/LocationPopupAttribute.cs: e857439c7dce5aef0e06c39215b11923 -> 
+  custom:scripting/monoscript/fileName/PlayerPrefsSavedGameDataStorerEditor.cs: 93e8b45d12094e58bdca9dddf43ec50c -> 
+  custom:scripting/monoscript/fileName/IOLib.cs: 9ed5bd5ce1d5378654e36d44041e7507 -> 
+  custom:scripting/monoscript/fileName/Saver.cs: 094149ab3ee04552d567b3277e7bd34f -> 
+  custom:scripting/monoscript/fileName/TableConstructor.cs: c9d22f40214052fad7ff4fa5e3f75e11 -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestLogWindow.cs: c4ada5aff85efcbee7720da4e492bb53 -> 
+  custom:scripting/monoscript/fileName/SceneTransitionManager.cs: d58931861067edb41744ff71150ec05b -> 
+  custom:scripting/monoscript/fileName/GUIWindow.cs: 62674130766c72cc6c4343ab363ccfa4 -> 
+  custom:scripting/monoscript/fileName/LuaError.cs: 2e915c4b09d4c58fe64d84266dfb2088 -> 
+  custom:scripting/monoscript/fileName/Operation.cs: ff7531c23e8a5717953b3606118e5055 -> 
+  custom:scripting/monoscript/fileName/ConversationLogger.cs: 7ec4e0098dea472ef6b8c63505d08ff1 -> 
+  custom:scripting/monoscript/fileName/UITextFieldDrawer.cs: 3d40e9add2ef9e4998b774a010964ea5 -> 
+  custom:scripting/monoscript/fileName/StringAsset.cs: e9fd80861edec215d109b393d264d132 -> 
+  custom:scripting/monoscript/fileName/LuaConsole.cs: d075ea63e299f837f7c0e9044b6a558f -> 
+  custom:scripting/monoscript/fileName/MultiActiveSaver.cs: 454c0e17069892df3825b50a6880a3dc -> 
+  custom:scripting/monoscript/fileName/MethodCall.cs: 3a340a84d41788080d5533d79069bead -> 
+  custom:scripting/monoscript/fileName/StandardUIContainerTemplate.cs: ff81e8fcc6a9cf96b2a6fa1fff0febba -> 
+  custom:scripting/monoscript/fileName/BinaryDataSerializer.cs: 33090cc9d5f8bd7f3d9cb1d085b7b4d4 -> 
+  custom:scripting/monoscript/fileName/MoreEditorUtility.cs: f4e4fabc7058f2ef29815ad790b1fdd3 -> 
+  custom:scripting/monoscript/fileName/StandardUITimer.cs: 5add453212f1327fc05e6e664eec0c08 -> 
+  custom:scripting/monoscript/fileName/UnityUITextFieldUI.cs: b55398d3d06be1b7ab60252210fdf474 -> 
+  custom:scripting/monoscript/fileName/ForInStmt.cs: 911a6f944bd4f7ad86aa96ca81aa1bfc -> 
+  custom:scripting/monoscript/fileName/Field.cs: 5d8ef5378dcd1ccdafeec2f88902744d -> 
+  custom:scripting/monoscript/fileName/QuestStateDispatcher.cs: fae57bf5ebb8c909209a36e413cd3d17 -> 
+  custom:scripting/monoscript/fileName/LocalVar.cs: a467cd5075e1a1ad427fc89bf755b454 -> 
+  custom:scripting/monoscript/fileName/StandardUIContentTemplate.cs: be3242788e9d06d36a54ae9c08d95d88 -> 
+  custom:scripting/monoscript/fileName/StandardSceneTransitionManager.cs: f0f563b255109210f210dd629a1658e5 -> 
+  custom:scripting/monoscript/fileName/BarkOnIdleEditor.cs: c7252008000f400bb8456f2d580af099 -> 
+  custom:scripting/monoscript/fileName/EditorZoomArea.cs: 2e52083d9b9fac56f7dc9caa6132e8ee -> 
+  custom:scripting/monoscript/fileName/ExtraDatabases.cs: 17ae5f6f646426fb89913eea97922eb7 -> 
+  custom:scripting/monoscript/fileName/StandardUITextTemplate.cs: 3475a1c01f59ecb03bcdb27ad9f4d9b6 -> 
+  custom:scripting/monoscript/fileName/EncryptionUtility.cs: 9bd8a235b1fccd6d4f9a0b54f701cce4 -> 
+  custom:scripting/monoscript/fileName/TriggerEvent.cs: 48c8dd76b7b6ba0c487c9b782c69206d -> 
+  custom:scripting/monoscript/fileName/UnityUITimer.cs: 204523e8567a68feb1a1821b2e0340cd -> 
+  custom:scripting/monoscript/fileName/Parser.cs: 9c8028ade8ca3bc5e6cb09e5077e839f -> 
+  custom:scripting/monoscript/fileName/LuaFunction.cs: d12abc7ebc2acc55afa788d45e2ef10e -> 
+  custom:scripting/monoscript/fileName/QuestStateAttribute.cs: d144b032cca6495d02b8c8ae3c274c1c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/QuestLogWindow.cs: 30f2f15f8a8a159031c3ac1cd3990596 -> 
+  custom:scripting/monoscript/fileName/CursorControl.cs: e8131957c7c36bb0dd42262c24ba0039 -> 
+  custom:scripting/monoscript/fileName/DialogueTriggerEventDrawer.cs: cf6f861a0aba002487446f08727dd263 -> 
+  custom:scripting/monoscript/fileName/LanguageTextExporter.cs: 9d6a9623ac46153009cd9dd659fd38ac -> 
+  custom:scripting/monoscript/fileName/DialogueDatabaseEditorTools.cs: 6cd947145d1f5f87b892aeb6fe5acfd1 -> 
+  custom:scripting/monoscript/fileName/LuaOnDialogueEvent.cs: 88dcc567690d113f605dc87770835421 -> 
+  custom:scripting/monoscript/fileName/BarkDialogueUI.cs: 736098b85e1d27f560be883e4b324be9 -> 
+  custom:scripting/monoscript/fileName/GlobalTextTable.cs: 19f87a4e4fc064410c453f89620c3997 -> 
+  custom:scripting/monoscript/fileName/StandardUIMenuPanel.cs: e207399adf50ca0b07a5bd5abd89c7c3 -> 
+  custom:scripting/monoscript/fileName/LuaTriggerEditor.cs: e744ee54a3a8a4a443dadbb2145b671f -> 
+  custom:scripting/monoscript/fileName/UniqueIDWindowPrefs.cs: 514f81d89d3e9a7e7f5106795982bf0f -> 
+  custom:scripting/monoscript/fileName/LuaWatchItem.cs: cf1921c11428e4eba755140a246b55a7 -> 
+  custom:scripting/monoscript/fileName/SetComponentEnabledOnDialogueEventEditor.cs: 68da96af634a5ccd509899fe4766ecf8 -> 
+  custom:scripting/monoscript/fileName/StandardBarkUI.cs: eaec8c0584e6d9ee2bb310bcc9f9784e -> 
+  custom:scripting/monoscript/fileName/DialogueEditorVariableView.cs: 151eb3673ae68d506d09f52899cd89d5 -> 
+  custom:scripting/monoscript/fileName/UIAutonumberSettings.cs: 4e41b11aaaf60953de6bac81b8328c97 -> 
+  custom:scripting/monoscript/fileName/DemoInputRegistration.cs: 10f107db1cfd3d83968f8c1695a60423 -> 
+  custom:scripting/monoscript/fileName/SafeConvert.cs: 8e075e3a7e4385e590c9dfbcd48ef275 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAudioWaitOnce.cs: b955b3c13ae7f9adead6c56c37403b14 -> 
+  custom:scripting/monoscript/fileName/Template.cs: 569641901ee2418691261e53ad82ee36 -> 
+  custom:scripting/monoscript/fileName/BarkController.cs: 95c7b6fc321dfb06ee5e0c3369eb45db -> 
+  custom:scripting/monoscript/fileName/LuaUserdata.cs: 552ae3b5f194aa3a8d04d13e2348fbf8 -> 
+  custom:scripting/monoscript/fileName/UIDropdownFieldDrawer.cs: db81ebb6d25fbeb7320e8ff4f1fd9aaf -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationNodeEditorTopControls.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorTools.cs: 7bfe67ff7251088bec54846a983e713f -> 
+  custom:scripting/monoscript/fileName/StandardUIAlertControls.cs: 0fae03831e1807efc0c33a9c203d8861 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandDelay.cs: 39c50d47c714e12da7eacec69d80643d -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowAssetLists.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/FunctionName.cs: 6b6bbaf43a6dc4c392ca755928e68309 -> 
+  custom:scripting/monoscript/fileName/SaveSystemEditorUtility.cs: e0fbb2cae5ff6c72ba469337fccca2d8 -> 
+  custom:scripting/monoscript/fileName/YarnConverterWindowDisabled.cs: 715238d996c4c5ad24f1a55a60b911c1 -> 
+  custom:scripting/monoscript/fileName/MessageArgs.cs: 4e7447dd33099efad2c63c97b6b93f7f -> 
+  custom:scripting/monoscript/fileName/DialogueSystemSaver.cs: 8d351d90d549669186c1dbc0fd6bfe0d -> 
+  custom:scripting/monoscript/fileName/SceneNotifier.cs: 060497c37823be2a7782684c3fb1aa75 -> 
+  custom:scripting/monoscript/fileName/VariablePopupDrawer.cs: 9187c8a498bdd5482bb4dd602c367dbf -> 
+  custom:scripting/monoscript/fileName/ListExtensions.cs: a2945415d0a87e503694a52808b5492e -> 0f96dfdcfd19dc46bb3b974629f04481
+  custom:scripting/monoscript/fileName/LuaBoolean.cs: a80c6ad1c1ede96495e5b17261c7bea7 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemSceneEvents.cs: 7e89307c965e46db0471d717dc96a7b8 -> 
+  custom:scripting/monoscript/fileName/UITextField.cs: cb8567b37d42da83fa7f728b063949e0 -> 
+  custom:scripting/monoscript/fileName/TextTable.cs: 6ff5e2877e20a04e7d9af532ec991669 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.003 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.731 seconds
+Domain Reload Profiling: 2735ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (608ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (198ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (1732ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (796ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (587ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (216.9 KB). Loaded Objects now: 5612.
+Memory consumption went from 276.5 MB to 276.3 MB.
+Total: 6.957166 ms (FindLiveObjects: 0.549470 ms CreateObjectMapping: 0.364691 ms MarkObjects: 5.695885 ms  DeleteObjects: 0.345622 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/LuaNumber.cs: 0f63fb3b2f42a9977bf9c05bd6cffdc4 -> 
+  custom:scripting/monoscript/fileName/PersistentDataSettings.cs: 81ab0e1e4feb5527ec3621f9f8ea82b1 -> 
+  custom:scripting/monoscript/fileName/SelectorUseStandardUIElementsEditor.cs: 1e889e4f762fb3e5aae249ac5ec39b9b -> 
+  custom:scripting/monoscript/fileName/Tools.cs: 959c99705dcd277d0463b944487f0748 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandCamera.cs: 8b95e12c6942acfae5c8ae66fcf6054d -> 
+  custom:scripting/monoscript/fileName/TextMeshProTypewriterEffect.cs: 0f9ab34fd48e054da1371933af31d4dd -> 
+  custom:scripting/monoscript/fileName/KeepRectTransformOnscreen.cs: d2be53874863f446ca81d9137f4c0e69 -> 
+  custom:scripting/monoscript/fileName/DialogueDatabase.cs: ceb61dcca9c6046ef265b81ab3e8dd35 -> 
+  custom:scripting/monoscript/fileName/VariablePicker.cs: 9230751196578e8385e8de50f23d8393 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandWaitForMessage.cs: 731932d01c64c1bd31a149b8d88aa27e -> 
+  custom:scripting/monoscript/fileName/TwineImportWindowDisabled.cs: a48390d2dedbfa52ea02be0aee8b84c8 -> 
+  custom:scripting/monoscript/fileName/LuaScriptWizardAttribute.cs: a571e18ba51b96f8127478f11f99235a -> 
+  custom:scripting/monoscript/fileName/OverrideDisplaySettings.cs: 2e1d29426bf8110add17af944ca1f037 -> 
+  custom:scripting/monoscript/fileName/UnityAlertControls.cs: cb8d3a4f3ab24e84cec1140da3c97ca8 -> 
+  custom:scripting/monoscript/fileName/CanvasDialogueUI.cs: 4b934f1eaacea04af30107700afc07c3 -> 
+  custom:scripting/monoscript/fileName/LuaConditionsWizardDrawer.cs: e0a3363d2c7d0d817d1642840463d45f -> 
+  custom:scripting/monoscript/fileName/UnityGUITools.cs: 07bba19fa56a7fd9a97f5e413843a591 -> 
+  custom:scripting/monoscript/fileName/UnityUIRoot.cs: a1ae87264ff88367dbbb8f9c94cc25e8 -> 
+  custom:scripting/monoscript/fileName/IMessageHandler.cs: 2ef430a52e3e12482d07da6bbbef2fba -> 
+  custom:scripting/monoscript/fileName/UnityUIContinueButtonFastForward.cs: eca48c2846ce20d593f1a9ce13470f6d -> 
+  custom:scripting/monoscript/fileName/DialogueEntryPicker.cs: e1668c76fe98ed77a86bf2f30ba5c689 -> 
+  custom:scripting/monoscript/fileName/CeltxConverterWindowDisabled.cs: 3fa8403dcd84eeea51722f79b069c85e -> 
+  custom:scripting/monoscript/fileName/FileLib.cs: 2183ff9b85d2bc2e12b927c6b29fbca0 -> 
+  custom:scripting/monoscript/fileName/FunctionCall.cs: ee1021adbd5f43f1f4f2c1fc57aea872 -> 
+  custom:scripting/monoscript/fileName/QuestEntryPopupDrawer.cs: 12240df041c3b7b8ebab5160e66b17c4 -> 
+  custom:scripting/monoscript/fileName/UnityUITypewriterEffect.cs: 15a28d2abe40166457279bba230c684b -> 
+  custom:scripting/monoscript/fileName/UnityUIIgnorePauseCodes.cs: da42d6fb808367518a685a9b97d6b8bf -> 
+  custom:scripting/monoscript/fileName/SavedGameData.cs: 4e934fbad4d52c0534819f62a2bce69a -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDatabaseStatsSection.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ParserInput.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SetAnimatorStateOnDialogueEvent.cs: e1fdc865355c475ede595f8ffba810fa -> 
+  custom:scripting/monoscript/fileName/FunctionValue.cs: b854c0cf1e503697a6ce08e3578cb801 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemAssetRenamerWindow.cs: 062ef1ae221237ae8680a1aa98def0bb -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Text.cs: a27487a220b2e263a090a4c9cab1f6b2 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LuaInterpreterExtensions.cs: f755ee07d5b4bb501abd4c21770db0fc -> 
+  custom:scripting/monoscript/fileName/PlayerSetupWizard.cs: a33457691d7a67263e5f60dc73adea56 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowActorSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandFade.cs: b853aa406e7fecbc67bb205c3745294f -> 
+  custom:scripting/monoscript/fileName/LocalizeUI.cs: 002944136174db04a6891fc17f9887c5 -> 
+  custom:scripting/monoscript/fileName/VariablePopupAttribute.cs: a626579971e26d8d863872c601487026 -> 
+  custom:scripting/monoscript/fileName/CheckPhysics2D.cs: f7c5a5cc0cf4ce443a8485137e703140 -> 
+  custom:scripting/monoscript/fileName/SequencerShortcutsEditor.cs: 1fe257c50a2b2833ea5249f3a687fbc4 -> 
+  custom:scripting/monoscript/fileName/EditModePlayerWindow.cs: f3a5457360f544801c6e13ead871d3c7 -> 
+  custom:scripting/monoscript/fileName/UnityUIQTEControls.cs: 56aaae0c5c36e2e0b2a614cb26e9964e -> 
+  custom:scripting/monoscript/fileName/SimpleController.cs: 2788c977eadea3a44f990b35a5a7f1eb -> 
+  custom:scripting/monoscript/fileName/UIDropdownField.cs: 4cd69f1f06cf09fd169ee252490a0c01 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemFields.cs: 5d8f45b9ff6b930834f03b06d39652c4 -> 
+  custom:scripting/monoscript/fileName/Conversation.cs: f5704d33caebdf0434082caa7609fd92 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowGUIStyles.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindow.cs: 10a280fe5af97d74aa9c92e35bc6d1f6 -> 
+  custom:scripting/monoscript/fileName/LocalizationToolsWindowPrefs.cs: 92486a045b7b601377738f256c0e6924 -> 
+  custom:scripting/monoscript/fileName/AbstractTypewriterEffect.cs: 1fcd812382b68a437dfb0d059a27e4fe -> 
+  custom:scripting/monoscript/fileName/LuaTableWrapper.cs: e6a3c106255a8ae91a4bc82d397aa746 -> 
+  custom:scripting/monoscript/fileName/SMSDialogueUI.cs: 13d150530c92d2c57c07fd8ff8e99206 -> 
+  custom:scripting/monoscript/fileName/QuestStateIndicator.cs: accc4e004efdc27265a0034018334f86 -> 
+  custom:scripting/monoscript/fileName/AlwaysFaceCamera.cs: 10f073262e05f20fbbbb80af65c70150 -> 
+  custom:scripting/monoscript/fileName/UIPanel.cs: 1a90b370ad3e1b71c92a8da6b6b6d57a -> 
+  custom:scripting/monoscript/fileName/RectExtensions.cs: fa5bc483f173021a6fb45c5eee112015 -> 
+  custom:scripting/monoscript/fileName/Args.cs: f1a9c668a1dd6448800a7613c3623509 -> 
+  custom:scripting/monoscript/fileName/FlashEffect.cs: 7cfe48b19ccc3b7df21b004680f32531 -> 
+  custom:scripting/monoscript/fileName/PersistentActiveDataMultiple.cs: 860a5bce16fe9057ec133bbd7d877ec5 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandGroupAttribute.cs: 26a0c981265c556eabb42f1a91fcf7a6 -> 
+  custom:scripting/monoscript/fileName/SpawnedObjectList.cs: 1b881dc4da75e3658bc846ab5266e9f2 -> 
+  custom:scripting/monoscript/fileName/DialogueEntryPopupDrawer.cs: d7d381d90184fd2b0b20dd992f891a1d -> 
+  custom:scripting/monoscript/fileName/SaveSystemTestMenu.cs: d3b2e6c7e26a7088339cbd25d696fe93 -> 
+  custom:scripting/monoscript/fileName/HelpBoxAttributeDrawer.cs: 4f86d589bc39c40b866178a759f83143 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowAssetSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TimerEffect.cs: 3a77a55311468e53132f0061da061fc7 -> 
+  custom:scripting/monoscript/fileName/DiskSavedGameDataStorerEditor.cs: 0ae3a795fc9955f9319737f7d6c106ec -> 
+  custom:scripting/monoscript/fileName/UIAnimationTransitions.cs: 412f3980f90b99f671b86a2424c4480b -> 
+  custom:scripting/monoscript/fileName/QueuedUIAlert.cs: 478f26c775c8b00cdc9004371250cdd4 -> 
+  custom:scripting/monoscript/fileName/MessageEventsEditor.cs: 957403df04950555b131cf5f2499f708 -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestTrackerEditor.cs: fde4de66d752ed6120f35cc409711e63 -> 
+  custom:scripting/monoscript/fileName/Usable.cs: 71f943bbdaadc2b5a05c7034f5dde912 -> 
+  custom:scripting/monoscript/fileName/DialogueTime.cs: 4f31d4bcd4fc1e59061b570e3c57b6c2 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowFieldMultinodeSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MessageSystemLogger.cs: 74c0f0e483209ace3ac85c54023b323c -> 
+  custom:scripting/monoscript/fileName/UnityTextFieldUI.cs: d13f72c73613aec0932f21f1a07db0e6 -> 
+  custom:scripting/monoscript/fileName/SequenceTrigger.cs: dd600763edfbfebbe825ea5e5febe447 -> 
+  custom:scripting/monoscript/fileName/ParamList.cs: 2a653170dc3b3986aae449cbc303a7f7 -> 
+  custom:scripting/monoscript/fileName/DataSerializer.cs: 6675a8d478826fd07b75c80eebdbf6ee -> 
+  custom:scripting/monoscript/fileName/ActiveSaver.cs: dc5ba6bfd767c04c21e769922848112f -> 
+  custom:scripting/monoscript/fileName/FormattedText.cs: 01d53eff133700726810120e357a146e -> 
+  custom:scripting/monoscript/fileName/StringFieldTextAreaAttribute.cs: 970efb782c37bdb6d99f046450f8ecb7 -> 
+  custom:scripting/monoscript/fileName/UnityUISelectorElements.cs: c4eeee8a07f3b2f4623213bad66d1ee7 -> 
+  custom:scripting/monoscript/fileName/IDialogueUI.cs: 3828b2d0f135bc1da43d0a77aa832d8d -> 
+  custom:scripting/monoscript/fileName/TemplateTools.cs: 40f9c80ba975188a961e78a072bed018 -> 
+  custom:scripting/monoscript/fileName/AbstractConverterWindow.cs: 448a802e95864dab1ee8963be49098d0 -> 
+  custom:scripting/monoscript/fileName/UniqueIDWindow.cs: 0fffe72b812f40ed38848c7a38570a40 -> 
+  custom:scripting/monoscript/fileName/LuaString.cs: 50fe81c427a35c7576399e268bd51e47 -> 
+  custom:scripting/monoscript/fileName/AbstractDialogueUI.cs: 6a76b5ee587f47f1106fac823e0c6f4d -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestTracker.cs: 9f8ecbde4589f383fc4136221b9f7c49 -> 
+  custom:scripting/monoscript/fileName/LuaNil.cs: e4a320cf6402ce3ec48640d399e6d375 -> 
+  custom:scripting/monoscript/fileName/OverrideUIBase.cs: ab183a4a677c039a54f406fce2d815ac -> 
+  custom:scripting/monoscript/fileName/DiskSavedGameDataStorer.cs: 190d34d404ca77cdcb5fb93c39da521a -> 
+  custom:scripting/monoscript/fileName/UnityDialogueControls.cs: b1d3dd2c6d9779cc41a6539eacedd82a -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestTitleButtonTemplate.cs: 42554d44cfe7ff1bc7350ec8436c7fbb -> 
+  custom:scripting/monoscript/fileName/DatabaseMerger.cs: 424c5e25b8505f56f082f320f9bc0be7 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemTriggerEventDrawer.cs: fed5b0e1ec2e4f1ee2a4a62da5cf582c -> 
+  custom:scripting/monoscript/fileName/UnitySubtitleControls.cs: f1570741d44348ea96eb6ac4d55a71ea -> 
+  custom:scripting/monoscript/fileName/CommonLibraryLua.cs: 868c23f2c9c55a83d57e80992baa858e -> 
+  custom:scripting/monoscript/fileName/Response.cs: f4683a4a8c4ab91b318ea00e095a123e -> 
+  custom:scripting/monoscript/fileName/StandardUIToggleTemplate.cs: cc81a849f95eb2f400409c861162e80a -> 
+  custom:scripting/monoscript/fileName/AbstractUIRoot.cs: a1adc42396fcc6170e99193cb7094a3c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor-firstpass: 086344e0dbbcf6d0e53b54c680158df7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/SequencerTools.cs: 142b9f641de85aa019e76985d543cc1b -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationTemplates.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemControllerHierarchyIcon.cs: 5c1af08a1ddc720b707c491ce6e1b46d -> 
+  custom:scripting/monoscript/fileName/LuaTable.cs: 6d7e064d8b78d528d51a95ca0a8ad38a -> 
+  custom:scripting/monoscript/fileName/StartSequenceOnDialogueEventEditor.cs: 836f92ccc845ce7c62f74af66b3ade92 -> 
+  custom:scripting/monoscript/fileName/DeselectPreviousOnPointerEnter.cs: 055144976c5ec34ae1b4ab019ed97792 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemAssetRenamerUtility.cs: 9097ade38ed1ecc52bf9ca97fb61a0af -> 
+  custom:scripting/monoscript/fileName/UsableUnityUI.cs: 84f1138a031c1ff1905c3f72aa1cc898 -> 
+  custom:scripting/monoscript/fileName/DictionaryExtensions.cs: 1e3301b495a62eb255a7f4d9f5050b9b -> 
+  custom:scripting/monoscript/fileName/ConversationControl.cs: 316bde714f4640a4789eced9f978c00c -> 
+  custom:scripting/monoscript/fileName/BarkGroupManager.cs: 183720c1e845f061a6e895abe7a04982 -> 
+  custom:scripting/monoscript/fileName/NumberLiteral.cs: 45f2c343f6d4976aaf3e4df8fcf8fd8d -> 
+  custom:scripting/monoscript/fileName/SetEnabledOnDialogueEventEditor.cs: b3ba210b5473628aae429b84a5bb091a -> 
+  custom:scripting/monoscript/fileName/CustomLuaFunctionInfo.cs: b13643c82d533cea135dab5d9d0d73d7 -> 
+  custom:scripting/monoscript/fileName/BarkTrigger.cs: 771e1af6812ae7f9e312f3a3468877ee -> 
+  custom:scripting/monoscript/fileName/JsonDataSerializer.cs: 5e711d4906513a00d813e06a0b06f6f8 -> 
+  custom:scripting/monoscript/fileName/Statement.cs: d64533d6645c690e613b7941b9aeee9e -> 
+  custom:scripting/monoscript/fileName/LuaTrigger.cs: 4238187b3041f87ea39bb6e9a1490f63 -> 
+  custom:scripting/monoscript/fileName/JsonImportWindow.cs: 8513707e9e94a92beaf19de0209b5a93 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowUpdateTemplateSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ConversationTrigger.cs: 6e5024bf588a2ab55491bd7dd59ef21f -> 
+  custom:scripting/monoscript/fileName/SetActiveOnDialogueEvent.cs: 78790da233eb4032d19de0f31d4b6678 -> 
+  custom:scripting/monoscript/fileName/StringFieldDrawer.cs: 47f7d776d409bbf68d617857fe60e860 -> 
+  custom:scripting/monoscript/fileName/Emphasis.cs: 85cca023f8c5d14123f55a52a8a0c4fe -> 
+  custom:scripting/monoscript/fileName/StandardUIFoldoutTemplate.cs: 5d675b61c9ee7530027e4ac476b7490c -> 
+  custom:scripting/monoscript/fileName/NavigateOnMouseClick.cs: eee595aca6997a209278b6e4fa688daf -> 
+  custom:scripting/monoscript/fileName/LuaWatchList.cs: 31b81b5fe1068c3888f87c83d63cf4fe -> 
+  custom:scripting/monoscript/fileName/IncrementOnDestroy.cs: 5e345c9a9b61cdc999f7338278331217 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestLogWindow.cs: 87c47d90c7f68cc90b08a5ec1e681cbf -> 
+  custom:scripting/monoscript/fileName/SequenceEditorTools.cs: 0ee8eab1f8eece9172c539654d91ddf6 -> 
+  custom:scripting/monoscript/fileName/MathLib.cs: 45e5ce8a0b7790735837b00caa662408 -> 
+  custom:scripting/monoscript/fileName/GUILabel.cs: 5d218642c42e6c14384066b69da29d61 -> 
+  custom:scripting/monoscript/fileName/TypewriterEffect.cs: 1be7a35c65d24e1f9f98c1e884e4a486 -> 
+  custom:scripting/monoscript/fileName/HelpBoxAttribute.cs: ab4f1a59d8a3ee3ad1fd172759f39875 -> 
+  custom:scripting/monoscript/fileName/GUIRoot.cs: 763a047ff11bbc41f31f6fca926dcb9e -> 
+  custom:scripting/monoscript/fileName/DialogueLua.cs: dacd1aefbd49a73d3b0a2a5df919b805 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: a4568240d3cf82b6e1d11cf6b1bdba0b -> 
+  custom:scripting/monoscript/fileName/UIScrollbarEnabler.cs: 67b3711f1937f031fefb38ca42c3a744 -> 
+  custom:scripting/monoscript/fileName/UnityUIBarkSubtitleDialogueUI.cs: 3fb45bf5f7c6402b07965551f9b40842 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowReorderIDs.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/LocalizationToolsWindow.cs: 56bb71fb5283bcda3f60fdf14451139b -> 
+  custom:scripting/monoscript/fileName/StandardUIInputField.cs: 45be8ab0f2fb7a5385bbec369b2c712f -> 
+  custom:scripting/monoscript/fileName/WelcomeWindow.cs: a6bd342d82a67a967d6f3dfafd224de5 -> 
+  custom:scripting/monoscript/fileName/ChatMapperConverter.cs: 1ad6d6a73a0ad98c9b9adc4e6df6b54b -> 
+  custom:scripting/monoscript/fileName/DialogueSystemTriggerEventAttribute.cs: 226a8e901b83996e682dd7f8519b645f -> 
+  custom:scripting/monoscript/fileName/TextInput.cs: 54cdabc6ace72465e54c715e64f75943 -> 
+  custom:scripting/monoscript/fileName/MoreGizmos.cs: eadc70e85070398b61f6c852a2969437 -> 
+  custom:scripting/monoscript/fileName/LinkUtility.cs: 18e1668976d79404c7c1a06f65fece40 -> 
+  custom:scripting/monoscript/fileName/DialogueEntry.cs: 5212a1784d1a4e3425a4fd95e4edc8e9 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemMenuItems.cs: ff8aef5ec4d54f69a640769e02e71d78 -> 
+  custom:scripting/monoscript/fileName/StandardUIQTEControls.cs: bb01e3ba41c7aa0a8424045dca03d9b0 -> 
+  custom:scripting/monoscript/fileName/Access.cs: c80aa3ac7415600f150b9f3c30b1b51f -> 
+  custom:scripting/monoscript/fileName/ConditionPriorityUtility.cs: 383528ac84eb58de6020e2f7da577a9e -> 
+  custom:scripting/monoscript/fileName/GUIImage.cs: 013a7eb349d11ccd3bcb7f930a478c7e -> 
+  custom:scripting/monoscript/fileName/ConversationController.cs: e236cfb418ef6f26a572a5c096feb790 -> 
+  custom:scripting/monoscript/fileName/GameTime.cs: 104d5f5d748c15658489748526d84876 -> 
+  custom:scripting/monoscript/fileName/AbstractDialogueUIControls.cs: 5d1a9c31b106485daa78fb430977a0a1 -> 
+  custom:scripting/monoscript/fileName/Condition.cs: 15437d0ff5b2d6e0045cf0837c4d34f1 -> 
+  custom:scripting/monoscript/fileName/ReturnStmt.cs: d990dede11ae278ca4d5c987e863fe89 -> 
+  custom:scripting/monoscript/fileName/QuestTriggerEditor.cs: c3bca23ada35ff4cf5e6bb8b6ff8ce45 -> 
+  custom:scripting/monoscript/fileName/ConversationStarter.cs: ce38056d4e216ee97afe5cc633ecea62 -> 
+  custom:scripting/monoscript/fileName/PersistentActiveData.cs: 1434b260f58b72866d691e9a2381052e -> 
+  custom:scripting/monoscript/fileName/DialogueActor.cs: c2e015f7680111a7bde2124d12a4e8be -> 
+  custom:scripting/monoscript/fileName/IfStmt.cs: bc636c9ac7297d6661b11df144ede82a -> 
+  custom:scripting/monoscript/fileName/AutoSize.cs: ee0b33825f1f363b3544b941490a6a91 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestGroupTemplate.cs: 3f3f223895cfdf11825382130498ee7f -> 
+  custom:scripting/monoscript/fileName/GameSaver.cs: c85426f0f4c04d66d1f9845c2a4a1931 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestTemplateAlternateDescriptions.cs: 6bed2a35c92a9d5de263c02af76f2a14 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAnimatorPlayWait.cs: 769d535d6a3e8c24f322a5e4374016d3 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemTriggerEditor.cs: d9e20c0138b06c77559cb266f5c1a6e4 -> 
+  custom:scripting/monoscript/fileName/TimedEvent.cs: a1f356387b32cb3d5569e14f7e8d001b -> 
+  custom:scripting/monoscript/fileName/VariableViewWindow.cs: 11b1c2ae8cbdda3047bbc3a7bb9a82b6 -> 
+  custom:scripting/monoscript/fileName/ConditionEditor.cs: 6158187e006cd08db233eb9667a47f5c -> 
+  custom:scripting/monoscript/fileName/CSVConverterWindow.cs: 439f468f9bb0f3337dc96234d26e61c4 -> 
+  custom:scripting/monoscript/fileName/ShowCursorWhileEnabled.cs: f82914756038ac54fb86e1b4ee026cec -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Item.cs: 3c4f65a595fa7dc690f310d69ccd99d5 -> 
+  custom:scripting/monoscript/fileName/EditorNote.cs: eb0d6b8f2730d389ac80ad2782231e53 -> 
+  custom:scripting/monoscript/fileName/ReferenceDatabaseDialogueEventEditor.cs: c389d68338f76252a163376a2aa5c8e3 -> 
+  custom:scripting/monoscript/fileName/Variable.cs: 4d479bbdfc03d7c25f6272fd3337dc62 -> 
+  custom:scripting/monoscript/fileName/GUIProgressBar.cs: 2ae3ab6431e28f939ae53a9f747ff9ff -> 
+  custom:scripting/monoscript/fileName/LevelManager.cs: fc31edb3fa0a5b57ea4129b7f1d69c75 -> 
+  custom:scripting/monoscript/fileName/Var.cs: f6b616e7140c2c109f290ef033cdefea -> 
+  custom:scripting/monoscript/fileName/SetQuestStateOnDialogueEventEditor.cs: 22a54e529abc29a297a298d83fd0420c -> 
+  custom:scripting/monoscript/fileName/BitMaskDrawer.cs: 237b52d531990f7f262faadaeaf43908 -> 
+  custom:scripting/monoscript/fileName/StandardUIButtonTemplate.cs: 787bdb6014b4db8d1f2a92b8a274db19 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowVariableSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/QuestPopupAttribute.cs: 642e4294ce26d92be9589328c3fdd519 -> 
+  custom:scripting/monoscript/fileName/NPCSetupWizard.cs: eff3dcc0c6801ed0554352f5f5b7b796 -> 
+  custom:scripting/monoscript/fileName/VoiceoverScriptExporter.cs: eb08330b8e7ff9431f3f82eaaa6ad898 -> 
+  custom:scripting/monoscript/fileName/DatabaseManager.cs: 39edd9851941dbc93ded54dcaf48c181 -> 
+  custom:scripting/monoscript/fileName/Function.cs: 83794a87b1463844346ef4c191c653b1 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Number.cs: 44c15b819fd5bc40577c7acb2ac7c715 -> 
+  custom:scripting/monoscript/fileName/SendMessageOnDialogueEvent.cs: 179cde8ed1aaf0b28c61693476c478b9 -> 
+  custom:scripting/monoscript/fileName/SetAnimationOnDialogueEvent.cs: 245ddb807a7cf194074e7e92325c66f5 -> 
+  custom:scripting/monoscript/fileName/AutoSaveLoad.cs: 75ecbd1a084f6fa3609f49e0cbe7d41c -> 
+  custom:scripting/monoscript/fileName/GUIScrollView.cs: d86b33ef32ff8a046588e0dcc0e7b0e9 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowWatchSection.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/CharacterTypeUtility.cs: e03519c6e9e50a5b869e13ffac6b265e -> 
+  custom:scripting/monoscript/fileName/RuntimeTypeUtility.cs: 95a5e9829c321e8dc89b035e688e15bb -> 
+  custom:scripting/monoscript/fileName/TypewriterUtility.cs: a53534e9c5d81ddd528da3ea070643b3 -> 
+  custom:scripting/monoscript/fileName/StandardDialogueUI.cs: 92cb1ff0ad58e90e81300c8405d4cd23 -> 
+  custom:scripting/monoscript/fileName/SymbolExtensions.cs: 4c6c057ba5f30883563ad950eb368822 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DialogueSystemEvents.cs: ead1c769993248cdaee83d5f7945f623 -> 
+  custom:scripting/monoscript/fileName/AssetFoldouts.cs: 96930a72a3821a7faa15d2fcdbab4a17 -> 
+  custom:scripting/monoscript/fileName/UIButtonKeyTrigger.cs: 208b0453518941cc76a29e3e43e788b9 -> 
+  custom:scripting/monoscript/fileName/Selector.cs: cdcae21ae4af63a85285c117da898be9 -> 
+  custom:scripting/monoscript/fileName/LuaConditionWizard.cs: 85b8cc5d091f898f879e59388db4139d -> 
+  custom:scripting/monoscript/fileName/DialogueActorEditor.cs: 2a27ad77142002bf96edf2eb8936a62f -> 
+  custom:scripting/monoscript/fileName/ConversationOverrideDisplaySettings.cs: 6767e9918468d660dc2533197f5cabde -> 
+  custom:scripting/monoscript/fileName/ItemPicker.cs: e69ac9ea6fa8de12abb51cdc9c2d61fe -> 
+  custom:scripting/monoscript/fileName/ItemPopupDrawer.cs: 579546427461cbd5e710ea3266d760fa -> 
+  custom:scripting/monoscript/fileName/QuestTrigger.cs: 249589fc2191e861016ac3f8ca92446f -> 
+  custom:scripting/monoscript/fileName/StandardUIDialogueControls.cs: 97dc09ac7a3eeddcca2ea0c9775fe414 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAnimatorLayer.cs: f525d6fd4e3196619c9f02c73902eeb8 -> 
+  custom:scripting/monoscript/fileName/LuaWizardBase.cs: b34eab4f95f01df8c077c2cc48bb6e15 -> 
+  custom:scripting/monoscript/fileName/DialogueEventStarter.cs: b9e482f49c03f0c88b3783495fc29d54 -> 
+  custom:scripting/monoscript/fileName/PersistentDestructible.cs: e789e6a510131a7b7f213216f33dbc2f -> 
+  custom:scripting/monoscript/fileName/LuaWatchers.cs: 721139bd6347d59327b20d9ef81bc6f8 -> 
+  custom:scripting/monoscript/fileName/StandardUsableUI.cs: 56f01859b7fff6817468514948a7e042 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowPrefs.cs: 321365603a628d462a3471cbffa5a578 -> 
+  custom:scripting/monoscript/fileName/LocalizedTextTableEditor.cs: fd56305af0edb4ced352acec2ef50798 -> 
+  custom:scripting/monoscript/fileName/TimedEventEditor.cs: 6ff03ad6649f926254f965d1f8580236 -> 
+  custom:scripting/monoscript/fileName/ItemValue.cs: 165dee6ebcb4148ff19aad6efdb67b4a -> 
+  custom:scripting/monoscript/fileName/RepeatStmt.cs: bcfaabb48c4fcce707cbfbf18045845e -> 
+  custom:scripting/monoscript/fileName/SequencerShortcuts.cs: 726c52be1851ade0ebaf3dfdea34d0b5 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Boolean.cs: 5c6e1bcca2a63fb3145b8a0d3234ca6c -> 
+  custom:scripting/monoscript/fileName/StandardUIContinueButtonFastForward.cs: 261a8c438586102fae0be5f4d7880735 -> 
+  custom:scripting/monoscript/fileName/TagMaskEvent.cs: d1317cd7bb80ef1bf89f227674f09e6c -> 
+  custom:scripting/monoscript/fileName/FunctionBody.cs: 295cb2c0ac8684d9dd2c4c94905e60fc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/StandardUIResponseMenuControls.cs: d95e9bddc9dd0e9c0640ca75792cd674 -> 
+  custom:scripting/monoscript/fileName/UnityUIBarkUI.cs: c8841dc90a0b345c9dac59b9afb76d6b -> 
+  custom:scripting/monoscript/fileName/UnityUIAlertControls.cs: 507c1652c581e8fee117b782c45d4912 -> 
+  custom:scripting/monoscript/fileName/OverrideUnityUIDialogueControls.cs: b74dc9d4d78d48a72b04028e751bf765 -> 
+  custom:scripting/monoscript/fileName/PlayerPrefsSavedGameDataStorer.cs: c192def95990455c773a767ab56f8682 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandZoom2D.cs: 079dc841115ee74926a114b3c8634164 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowLocationSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CSVUtility.cs: 2a23d0ab28bcfa3b130b8a57d7f94b6d -> 
+  custom:scripting/monoscript/fileName/BarkOnDialogueEvent.cs: a52068f0f5aebee9a6baac2afe48090f -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationNodeEditor.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/AssetUtility.cs: 128da031f5931d850e716382b181702b -> 56b81e5e2578818cf6f96d864707db64
+  custom:scripting/monoscript/fileName/UnityQTEControls.cs: 51fa8b348f2866199a8cf91f97e53e79 -> 
+  custom:scripting/monoscript/fileName/SpawnedObjectManager.cs: cd5cb440095543fe6944dfa9fa773194 -> 
+  custom:scripting/monoscript/fileName/StartConversationOnDialogueEventEditor.cs: 1ae8cd598728bab95d534a89b65b04ce -> 
+  custom:scripting/monoscript/fileName/AudioEffect.cs: 91331398187570fb51e64a45bb33e4e3 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Location.cs: 4d24d70c8ca67576ba31f2e9979225af -> 
+  custom:scripting/monoscript/fileName/CSVExporter.cs: b70466614f8bee2712bbc325db088dda -> 
+  custom:scripting/monoscript/fileName/SaveSystemMethods.cs: 84ec72b52bca40a042363fc6b4b696b0 -> 
+  custom:scripting/monoscript/fileName/SetEnabledOnDialogueEvent.cs: 681f74ce61f96fd6b809810accb2f7a7 -> 
+  custom:scripting/monoscript/fileName/Actor.cs: 828593121919b78f800957bfcb71a67d -> 
+  custom:scripting/monoscript/fileName/ScaledRect.cs: 50381d934aaf108d2faad63f069c62be -> 
+  custom:scripting/monoscript/fileName/FadeEffect.cs: 4a13b9240e80482e8f4861f2a95db71e -> 
+  custom:scripting/monoscript/fileName/Location.cs: 2efe5fd340e2fc163db6bef2bb142b45 -> 
+  custom:scripting/monoscript/fileName/PreloadActorPortraits.cs: c17867c269bf60fce340f51dde79f0a2 -> 
+  custom:scripting/monoscript/fileName/DialogueSystem1xTo2xUpdater.cs: c1dcd18d6d1ef17fdfc608c79a542362 -> 
+  custom:scripting/monoscript/fileName/EditorWindowTools.cs: 4f205a0c97a215d2341d3c1dd64292c7 -> 
+  custom:scripting/monoscript/fileName/QuestEntryPopupAttribute.cs: dbefa933b3b8c644a20530b5010d83de -> 
+  custom:scripting/monoscript/fileName/ItemPopupAttribute.cs: 2a534f98a1e1d0f9656992c24269f7fd -> 
+  custom:scripting/monoscript/fileName/StandardUISubtitlePanelEditor.cs: 04e2cec2505efb28eb627cbda3671381 -> 
+  custom:scripting/monoscript/fileName/DestructibleSaver.cs: 441076b454eec3fdd1593eae2bc2da5f -> 
+  custom:scripting/monoscript/fileName/OverrideDialogueUI.cs: 01562f8facb2440d0e26799991a5f2f3 -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestTrackTemplate.cs: d1cde86add72a46cfd9f93214291e3d4 -> 
+  custom:scripting/monoscript/fileName/DialogueDatabaseEditor.cs: 7ad939b63c85a40914cac587cc8d9258 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDelegates.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SelectedResponseEventArgs.cs: 9179088c49fbab3ca03b17d892e42f3f -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDatabaseIssuesCheckSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CoroutineUtility.cs: c987acd28de366a1291274ad84595e97 -> 
+  custom:scripting/monoscript/fileName/TextParserCommon.cs: 9c8028ade8ca3bc5e6cb09e5077e839f -> 
+  custom:scripting/monoscript/fileName/ScreenplayExporter.cs: 45225b6d32000b6ae89792b0de0f27b5 -> 
+  custom:scripting/monoscript/fileName/DoStmt.cs: e0046beea3efe51e7ce56f4d80749e4c -> 
+  custom:scripting/monoscript/fileName/GUIButton.cs: 07dde69bbd1012bab04fcd8203973b64 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType.cs: 0b1a4eab781ea6ecba672ddf48c7a620 -> 
+  custom:scripting/monoscript/fileName/ConversationPopupDrawer.cs: 08ab16a905460f5a647466af3cfa0fc9 -> 
+  custom:scripting/monoscript/fileName/ScaledValue.cs: e77e2f16b3788d571f554239d602642a -> 
+  custom:scripting/monoscript/fileName/KeyAccess.cs: 567fc55f0fa4f53778838ca8fe1a3f80 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDialogueTreeSection.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ConditionObserver.cs: f0d09d4ca8f2e90b6722776d1d4b34d6 -> 
+  custom:scripting/monoscript/fileName/ScenePortal.cs: 014bec31f5a781096670cb1a0bb781ae -> 
+  custom:scripting/monoscript/fileName/DialogueEntryPopupAttribute.cs: 383021117ec16544709ed15d5ff4a2aa -> 
+  custom:scripting/monoscript/fileName/BarkOnDialogueEventEditor.cs: 4616d2a03ccced24f3089b96c972c5db -> 
+  custom:scripting/monoscript/fileName/LocalizeUIText.cs: 5c3205b02be51cc62d2835d70b7a6f47 -> 
+  custom:scripting/monoscript/fileName/ChatMapperUtility.cs: 6d7f4fbfa8c3f2dcb2290749509ab9de -> 
+  custom:scripting/monoscript/fileName/BaseExpr.cs: 9602f429f75ce2dfa34940ec0e355d32 -> 
+  custom:scripting/monoscript/fileName/ConversationView.cs: 1f2cb891bd89a912cc4c8a3c5f019afc -> 
+  custom:scripting/monoscript/fileName/ChatMapperExporter.cs: ea8a67182f0cf30cb389a0805672ed85 -> 
+  custom:scripting/monoscript/fileName/SmoothCameraWithBumper.cs: b3e2db0952e29d849ce1f37b9c6b9c5e -> 
+  custom:scripting/monoscript/fileName/PositionSaver.cs: 0ec64600782dfed7c35dabf1c5ec0da3 -> 
+  custom:scripting/monoscript/fileName/ConditionPropertyDrawer.cs: fc202ac74c79ea011d866fcf830c795a -> 
+  custom:scripting/monoscript/fileName/VarName.cs: 3bb57413c4ed60f31931bdbe3f7f73c2 -> 
+  custom:scripting/monoscript/fileName/Expr.cs: 79e20de8847938a8c808393adebd6ddb -> 
+  custom:scripting/monoscript/fileName/UILocalizationManager.cs: a21843e95c3f1edb7eb186c53b5fb060 -> 
+  custom:scripting/monoscript/fileName/UnityDialogueUI.cs: 5cf0d906024e903cea9e11e0a6df7ad9 -> 
+  custom:scripting/monoscript/fileName/StandardUISubtitleControls.cs: 2d588d28c462b6e2b0dff1eddca5cc19 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemControllerEditor.cs: 6d97b038ccebbbc67d8cafac39730d4e -> 
+  custom:scripting/monoscript/fileName/Link.cs: 7900ac88accbbc9cd9f2972e875c9530 -> 
+  custom:scripting/monoscript/fileName/ChatMapperToDialogueDatabase.cs: 8690220b9ff3e00f993e99c25850f668 -> 
+  custom:scripting/monoscript/fileName/StandardUIIgnorePauseCodes.cs: 239182214cf51d49254521def8e995f9 -> 
+  custom:scripting/monoscript/fileName/Fit.cs: 8244a27d4153c4df6250afb8e1d2f1ef -> 
+  custom:scripting/monoscript/fileName/SequencerCommandLoadLevel.cs: 3ba85ea859b8a3c8a10aac9af7162d45 -> 
+  custom:scripting/monoscript/fileName/BreakStmt.cs: a94239967ef3eeef351954589e782b2a -> 
+  custom:scripting/monoscript/fileName/CollisionEvent.cs: 8e899a195cfdbb7598ca316a2599523f -> 
+  custom:scripting/monoscript/fileName/MessageEvents.cs: 9e136764df943cc03a4ec64f6e0ef0f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineCameraPriorityOnDialogueEvent.cs: 0e16159c9014915231063b072fbce10d -> 
+  custom:scripting/monoscript/fileName/BaseLib.cs: 2fe59f084ef40157afb342621e7e23cb -> 
+  custom:scripting/monoscript/fileName/LocalizedTextTable.cs: 3e29f8d9c02ce7c475c25688d9d07328 -> 
+  custom:scripting/monoscript/fileName/Chunk.cs: 6f5fa6627a1c900d412233a4fa598b91 -> 
+  custom:scripting/monoscript/fileName/UnityBarkUIOnGUI.cs: ee282c0e00e60a5f87f8239db3db3ec2 -> 
+  custom:scripting/monoscript/fileName/ImageAnimation.cs: 01ec1e97dc9f7b086ead3f3f54ea291d -> 
+  custom:scripting/monoscript/fileName/InputTrigger.cs: 540f3b8304247c7141f53594f6f414c4 -> 
+  custom:scripting/monoscript/fileName/UpdateLocalizedUITexts.cs: 08bff424b44fcdb8a633cdc919f6fe19 -> 
+  custom:scripting/monoscript/fileName/SetQuestStateOnDialogueEvent.cs: f23d5f9cfa1649f481310fbb678a3889 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Files.cs: 1c3095aa57e7c51821530b9bd23a5a07 -> 
+  custom:scripting/monoscript/fileName/ActorPopupDrawer.cs: 571b50f1149f1dd736cfae96e3faa193 -> 
+  custom:scripting/monoscript/fileName/UnityUIScrollbarEnabler.cs: 369694bffae2a20e8e1bf9dcf60edab1 -> 
+  custom:scripting/monoscript/fileName/ConversationPositionStack.cs: 13659dd9120264ac6bc09170164e826d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationNodeEditorAutoArrange.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationNodeEditorBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UseAnimatedPortraits.cs: 255d51edd036d5c1dd30dd35b9f855c6 -> 
+  custom:scripting/monoscript/fileName/MorePhysics2D.cs: 2af3198d93902250647f0b92fb98e94e -> 
+  custom:scripting/monoscript/fileName/NameAccess.cs: c294428ef00bd9f765e5ada974e07d72 -> 
+  custom:scripting/monoscript/fileName/AuroraConverterWindowDisabled.cs: 4573dee8f8df0464c36bd7239a288b31 -> 
+  custom:scripting/monoscript/fileName/UIInputField.cs: ea684552cb4b8b3d090abd56f44b9710 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Actor.cs: 81d00da8c2dbfdf3af816e87586280e6 -> 
+  custom:scripting/monoscript/fileName/ShowCursorOnConversation.cs: b0b6fa9100c70c1a441fca4672d869d2 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandSwitchCamera.cs: 7c2c426a64f5ac4701c888dd110a0541 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/StandardUIResponseButton.cs: 21d584897c5f3e0553a0439b87064339 -> 
+  custom:scripting/monoscript/fileName/OperatorExpr.cs: 923db23e5205f1f6cbdc6547fae07216 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestTrackTemplate.cs: 7b8637e02eb2646952ac02927628c9b2 -> 
+  custom:scripting/monoscript/fileName/Term.cs: 2a12dbc1e88f633eb97ec146b6129c78 -> 
+  custom:scripting/monoscript/fileName/TagMaskDrawer.cs: 13705c8fa9409cd3e1dbbe2f64d75329 -> 
+  custom:scripting/monoscript/fileName/Asset.cs: 25924ee67c413e189036490437ddd63d -> 
+  custom:scripting/monoscript/fileName/UIUtility.cs: cd9b7864df09ef9ca4927ad3f7fd56f2 -> 
+  custom:scripting/monoscript/fileName/GUIVisibleControl.cs: baafa854d5e8a35db73ce25130e58767 -> 
+  custom:scripting/monoscript/fileName/TypeUtility.cs: 57a642f8b2543e0df2a359c80a93a142 -> 697cbcee997ea80178c464c8fd931a69
+  custom:scripting/monoscript/fileName/StandardUISubtitlePanel.cs: 4ef63e5cb466f7575f56b704f8ac51c5 -> 
+  custom:scripting/monoscript/fileName/LuaMethodFunction.cs: ea9a0068d5c03b4d73e018ed1bd0407a -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowLocalization.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemTrigger.cs: b23380b157818830c074ce4b792aa4b6 -> 
+  custom:scripting/monoscript/fileName/LuaConditionsWizardAttribute.cs: a2aa0490ae6d5776db64dea80a48aa30 -> 
+  custom:scripting/monoscript/fileName/SetAnimatorStateOnDialogueEventEditor.cs: 157f91760372de4d131400ad68b1d92e -> 
+  custom:scripting/monoscript/fileName/BitMaskAttribute.cs: bafaf59f57963e2fdeba063330cd3ad5 -> 
+  custom:scripting/monoscript/fileName/AbstractUIResponseMenuControls.cs: 999eb07f842d5bf1ce4b956fb6ff1d2b -> 
+  custom:scripting/monoscript/fileName/LoadingScreenProgressBar.cs: 14ee65e1fc4ff46515d547387a3b93ca -> 
+  custom:scripting/monoscript/fileName/AbstractUIControls.cs: a293ab45fb2fc2d62d18d8dabd33bd95 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/ConditionObserverEditor.cs: 0a2add25f313639f735d9d568dc8e89e -> 
+  custom:scripting/monoscript/fileName/ChatMapperProject.cs: c0e25f2f028e33acfc0b17fd8f57bd5c -> 
+  custom:scripting/monoscript/fileName/DialogueSystemMessages.cs: b09b891c2b98a5a44e086aff380ca343 -> 
+  custom:scripting/monoscript/fileName/ConversationTriggerEditor.cs: 5a3ae65dd90a74b0023303a84f6c7d6f -> 
+  custom:scripting/monoscript/fileName/IStandardDialogueUI.cs: 7c3a44ddc7c814aa545ace7fad7335cb -> 
+  custom:scripting/monoscript/fileName/SequencerCommandTextInput.cs: f1c70d3c78873f6e3ae145d1d8834b05 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowNoAI.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAudioWWW.cs: 1c99a5bb6008e0a1f2b56b13e6411c22 -> 
+  custom:scripting/monoscript/fileName/AbstractUIAlertControls.cs: 0552d69459f61646fcf5358556b4ee5a -> 
+  custom:scripting/monoscript/fileName/SequencerCommandMoveTo.cs: 2a69f2bc4921aaac308a0eb9744bf87c -> 
+  custom:scripting/monoscript/fileName/OSLib.cs: 6c7e386d7651e497903a8ea999d88218 -> 
+  custom:scripting/monoscript/fileName/QuestTracker.cs: 4d5480c823370a7aaf8a91a1e7127f50 -> 
+  custom:scripting/monoscript/fileName/PauseGameOnConversation.cs: 6e0874651759167769a5e1007d3db66e -> 
+  custom:scripting/monoscript/fileName/StartSequenceOnDialogueEvent.cs: 18272a2de41ab8ee8f53b8362cb5fdf3 -> 
+  custom:scripting/monoscript/fileName/RelationsInspectorLink.cs: 4ebdf31251a6fb5a8541104cafa011c0 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DataSynchronizer.cs: de24c396b9debada92d9284eb2252099 -> 
+  custom:scripting/monoscript/fileName/SequencerKeywords.cs: df21f41a48363370d04bb22e050075fa -> 
+  custom:scripting/monoscript/fileName/Vector3SerializationSurrogate.cs: adb25b8f1b413e5ebf3454b4f2f6e54a -> 
+  custom:scripting/monoscript/fileName/DialogueTriggerEventAttribute.cs: 58eda652bcd3cb6ca75c65cacaa5db31 -> 
+  custom:scripting/monoscript/fileName/GUIControl.cs: 864ca7f5d0639a6b24a13a35e7d5a02b -> 
+  custom:scripting/monoscript/fileName/AlertTrigger.cs: 469aa60292b06790b7d1f3e5dbfb7193 -> 
+  custom:scripting/monoscript/fileName/StopConversationIfTooFar.cs: 2d9aa3a2e67f9b69e334ce770c483ebb -> 
+  custom:scripting/monoscript/fileName/XmlContentExport_FullProject_4_0.cs: 54d309b4cd1b6aba5fec455d9952727e -> 
+  custom:scripting/monoscript/fileName/EnabledSaver.cs: 4e801e78dba99b7c9b83774eaf9e65cc -> 
+  custom:scripting/monoscript/fileName/ConversationPopupAttribute.cs: 15568bedcd82deb2442dd6222ee7f2e3 -> 
+  custom:scripting/monoscript/fileName/AnimatedPortrait.cs: 03825b793cde52daf38e0a1cd5e36de3 -> 
+  custom:scripting/monoscript/fileName/QuestPopupDrawer.cs: 9be88d8428b38808bc4750ce971470e9 -> 
+  custom:scripting/monoscript/fileName/EnablePhysics2DMenuItem.cs: 104d31816a64cf55b8780a808fe5f37b -> 
+  custom:scripting/monoscript/fileName/ProximitySelector.cs: d829218c9c4e96177bd789ccff469ccf -> 
+  custom:scripting/monoscript/fileName/GUIEffect.cs: e60086fd241b8e444f19c021a16aca1c -> 
+  custom:scripting/monoscript/fileName/DisappearEvent.cs: 746f991418b32bc74c131b2c0a95955b -> 
+  custom:scripting/monoscript/fileName/Toolbar.cs: 335a8990200f3eb108b28b3b4c259459 -> a885dcc36fdcf651d9a93e50c6fd27ba
+  custom:scripting/monoscript/fileName/ConversationPicker.cs: 6d0ab8d6f484b7251b31f8d4091d79a9 -> 
+  custom:scripting/monoscript/fileName/GroupExpr.cs: b81f74439c39189a6310f907e6a53f45 -> 
+  custom:scripting/monoscript/fileName/QuestStateListener.cs: 241bf6880b9bcd1a33a4eafd595b9114 -> 
+  custom:scripting/monoscript/fileName/SlideEffect.cs: 4d74a9b417115be57799a14f65215707 -> 
+  custom:scripting/monoscript/fileName/UITools.cs: 78655811e21941b1cbdc0cb48b215b0a -> 
+  custom:scripting/monoscript/fileName/PanelNumberUtility.cs: 2f2197fa8e686f52acd60dc040909dbb -> 
+  custom:scripting/monoscript/fileName/QuestConditionPropertyDrawer.cs: a787f70b37a1d6ef2ffb33e21c065ea0 -> 
+  custom:scripting/monoscript/fileName/SequenceParser.cs: da81e93c5500415e17077a8bca26167b -> 
+  custom:scripting/monoscript/fileName/SequenceTriggerEditor.cs: 122830d269f256ee5e3c2c3c69b6390e -> 
+  custom:scripting/monoscript/fileName/ArticyConverterWindowDisabled.cs: 86d9763c30aacb5ae65a3a74c60a976e -> 
+  custom:scripting/monoscript/fileName/DialogueDebug.cs: 3f743be47efeae7568214ab178e2617d -> 
+  custom:scripting/monoscript/fileName/AbstractUISubtitleControls.cs: bd7aa1376ef230815fd7d165604c5a1d -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_Localization.cs: 1c429985cee251279b97889ab96c21f4 -> 
+  custom:scripting/monoscript/fileName/SelectorFollowTarget.cs: 7ee914c64b72f6e46ba4d96621f6d812 -> 
+  custom:scripting/monoscript/fileName/UnityUIResponseButton.cs: 73ecd1c48c14f1ba934611fd171d2fb6 -> 
+  custom:scripting/monoscript/fileName/SendMessageOnDialogueEventEditor.cs: 74df48198734b0182171c4c061f0bb42 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowMain.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/BarkOnIdle.cs: 5b811133b4d4e98cdc0c4f862de13bad -> 
+  custom:scripting/monoscript/fileName/LuaScriptWizardDrawer.cs: c212d70b6859820787a83f62a876f48e -> 
+  custom:scripting/monoscript/fileName/SequencerMessages.cs: e1b7419a735313c4ec311b2acf8f05fb -> 
+  custom:scripting/monoscript/fileName/MoreEditorGuiUtility.cs: 539540a9286d2345e111978cbb016267 -> 
+  custom:scripting/monoscript/fileName/ActorSubtitleColor.cs: 82c291639fe1bb5d92b336963a4db210 -> 
+  custom:scripting/monoscript/fileName/Localization.cs: 7f00b1d5b05e768420c3206d9f2b778d -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 69ff91542b03080f5d8b8c550a3d3256 -> 
+  custom:scripting/monoscript/fileName/UnityDialogueUIControls.cs: 0984a9ba74faa108ca83495ffabaa57a -> 
+  custom:scripting/monoscript/fileName/LocalizedFonts.cs: 4aa77260fe2fe59b12e8506fcdc0f3c5 -> 
+  custom:scripting/monoscript/fileName/ContinueButtonFastForward.cs: 99507f4a354d9e6976d5ce6ee28e834a -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectUtility.cs: 96070b89d9ca6d37367db8762e269410 -> 
+  custom:scripting/monoscript/fileName/VariableArg.cs: 37bf2782b5aed4a1ab87dcfce917b9c8 -> 
+  custom:scripting/monoscript/fileName/StringLiteral.cs: e81afed936a1f46e94e0729660560f9f -> 
+  custom:scripting/monoscript/fileName/GUIImageParams.cs: be553d606d2b9688769e5f261208b286 -> 
+  custom:scripting/monoscript/fileName/BarkStarter.cs: 550751ac8613ef2805b8371d5b334508 -> 
+  custom:scripting/monoscript/fileName/TextlessBarkUI.cs: 714515dd9826559273b8fa94fb7572ad -> 
+  custom:scripting/monoscript/fileName/SetAnimationOnDialogueEventEditor.cs: 0eb7ab101308985a656819dbf34747e1 -> 
+  custom:scripting/monoscript/fileName/PersistentPositionData.cs: 86de2f6b42610320eb771ab3c344f8c7 -> 
+  custom:scripting/monoscript/fileName/QuestLog.cs: 59d06f784c70cae92c03a19320d2e594 -> 
+  custom:scripting/monoscript/fileName/DatabaseUtility.cs: a5cdf7b30d4f51dc2b6b02e207b77254 -> 
+  custom:scripting/monoscript/fileName/QuaternionSerializationSurrogate.cs: 9d865efadd3ac9e98e30a44e2fc4ff77 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestTemplate.cs: f5167163d52a47912a970c33f20ec1fb -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestTemplateAlternateDescriptions.cs: a5a889ccfa48ba2934f056af7866eb4f -> 
+  custom:scripting/monoscript/fileName/DialogueSystemController.cs: 9c843bf7184871f6c0839cc75f5c0bb2 -> 
+  custom:scripting/monoscript/fileName/RangeTrigger.cs: e33c0113015a379f3a51327d1076dc00 -> 
+  custom:scripting/monoscript/fileName/ComponentUtility.cs: 96e5372f60034cadbc8e25cacc5f4dd3 -> 
+  custom:scripting/monoscript/fileName/Yarn2ImporterWindowDisabled.cs: c5375e2dd6170fb222481b7a34ca43a1 -> 
+  custom:scripting/monoscript/fileName/UnityUISelectorDisplay.cs: 888d260ecd9a2c1440d0be86e3dbe977 -> 
+  custom:scripting/monoscript/fileName/TextTableEditor.cs: fd7ac2f4d077ae79a8ab5a4cde2bba12 -> 
+  custom:scripting/monoscript/fileName/EncodingType.cs: 0c9b89a6b4b387fc16fdfc910d5d6597 -> 
+  custom:scripting/monoscript/fileName/QuestGroupRecord.cs: 3dab15e1a7e246852fbade4cd254d250 -> 
+  custom:scripting/monoscript/fileName/PersistentActiveDataMultipleEditor.cs: 8b9d91466bb3defc9c3b7469059f2a0e -> 
+  custom:scripting/monoscript/fileName/OperTable.cs: fad999836b4dc3939f2a3310a150afb6 -> 
+  custom:scripting/monoscript/fileName/CharacterInfo.cs: 0fb556b206ad205a0d203c862440376f -> 
+  custom:scripting/monoscript/fileName/PrimaryExpr.cs: 5ce4972f022cca445b97894fdfad99cb -> 
+  custom:scripting/monoscript/fileName/ITextFieldUI.cs: ed82cc64c8980fe410993a6a89b44af5 -> 
+  custom:scripting/monoscript/fileName/CustomFieldTypeService.cs: ad4f072fb4262f8954beb84e93e88eed -> 
+  custom:scripting/monoscript/fileName/ConversationStateSaver.cs: 9f574bb50ed0f4f68663a1e663eaa702 -> 
+  custom:scripting/monoscript/fileName/ArcweaveImporterWindowDisabled.cs: 97eb342ca928ad3740a7a2b8a960dd71 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowFieldsSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ActiveConversationRecord.cs: 81d14b723ff72737c99accf2959da743 -> 
+  custom:scripting/monoscript/fileName/UnityUIDialogueUI.cs: fbf77d170cd0f08092395ef313a1f359 -> 
+  custom:scripting/monoscript/fileName/UnityBarkUI.cs: d08a5732db3342984e2e966cff3cf624 -> 
+  custom:scripting/monoscript/fileName/DisplaySettings.cs: 313d9fabdc82503477fbcafeeabb4e7d -> 
+  custom:scripting/monoscript/fileName/StandardUIMenuPanelEditor.cs: 1d51e45fc05ea2eea3c28dd07abe8750 -> 
+  custom:scripting/monoscript/fileName/ForStmt.cs: 2dc7118712ee073144359e531ce44045 -> 
+  custom:scripting/monoscript/fileName/KeyValue.cs: a81d1170f4c79fa7557917659a647d75 -> 
+  custom:scripting/monoscript/fileName/SaverEditor.cs: fd33fd03cee204d09570eb1ac76b5a54 -> 
+  custom:scripting/monoscript/fileName/PersistentActiveDataEditor.cs: 297c9baa9df050644619fb56b080a7cd -> 
+  custom:scripting/monoscript/fileName/DontDestroyGameObject.cs: 43d5bc73677c46b2ed663d5e3c03a428 -> 
+  custom:scripting/monoscript/fileName/ConversationModel.cs: 8722e5ef06d7d08854125a49b0debc07 -> 
+  custom:scripting/monoscript/fileName/OverrideActorName.cs: 9ef77557fc0799c0c4802c827de59bfd -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestTracker.cs: da9e9e6432747d05ccbf7e1b036e473f -> 
+  custom:scripting/monoscript/fileName/SetActiveOnDialogueEventEditor.cs: f28e770cd762f9cec847f1df9b05c25d -> 
+  custom:scripting/monoscript/fileName/LocalizeTextMesh.cs: a286fa44c52962336d08e443d36356ba -> 
+  custom:scripting/monoscript/fileName/BarkTriggerEditor.cs: 52f638bd27bb8d11d355ca5613c28cbe -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowLanguageList.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/QuestStateDrawer.cs: 3ae4d28caea22eb0c7be04ca96aa7a48 -> 
+  custom:scripting/monoscript/fileName/CheckInputManagerSettings.cs: cac38f9d52b317a87b6d569267bdb70e -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: 3ba0db152b6368f45d3a23a5281988b3 -> e35012b3e8f0b9a62e22595c530c4b09
+  custom:scripting/monoscript/fileName/UnityUIResponseMenuControls.cs: 3f12d4f951ecb524e818c105d4042808 -> 
+  custom:scripting/monoscript/fileName/UIShowHideController.cs: f5dec34621bb0ac30a9812ec6e0fdf08 -> 
+  custom:scripting/monoscript/fileName/Assignment.cs: f72b998094314cadaccb6d54bbf250c1 -> e7e95b15b1817de1e276ec84e96c85f7
+  custom:scripting/monoscript/fileName/IBarkUI.cs: 8e79562319723a6362287de97631b5a7 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowUndo.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ElseifBlock.cs: f6bc22c96a0e256051fe6f3af5ead4f2 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDialogueTreeSearchBar.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/InputDeviceManagerEditor.cs: 5e6cd54003c6dd30d6bd0b0f8023b06b -> 
+  custom:scripting/monoscript/fileName/UnityUIColorText.cs: 130307d5b6aeda70e08aca36d4ae7593 -> 
+  custom:scripting/monoscript/fileName/DemoMenu.cs: c250aa5ec95815c8c332f08c70cf2f6b -> 
+  custom:scripting/monoscript/fileName/QuestLogWindowHotkey.cs: 407ce7590755607f3623a6afcab1098b -> 
+  custom:scripting/monoscript/fileName/SequenceStarter.cs: 91cd61eb7934f1224f448591c0e0519d -> 
+  custom:scripting/monoscript/fileName/LuaInterpreter.cs: 519c257b2235556d491883674cd29107 -> 
+  custom:scripting/monoscript/fileName/GameObjectUtility.cs: 9402d87985fe5c70ba7c9f4462093d7a -> 
+  custom:scripting/monoscript/fileName/AssetBundleManager.cs: bad2e830add95cb98b57de421b70241b -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowDatabaseSection.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/LocalFunc.cs: e7a70324483653fe39260b9bd0699d5b -> 
+  custom:scripting/monoscript/fileName/LocationPopupDrawer.cs: 60f509c109b4228b184bd67b70d1869f -> 
+  custom:scripting/monoscript/fileName/QuestPicker.cs: 015d4d8ca6cdd097c0b436c3dca72128 -> 
+  custom:scripting/monoscript/fileName/EmphasisSetting.cs: 822605fcc577970bfe598a1ded8937a7 -> 
+  custom:scripting/monoscript/fileName/UIAnimatorMonitor.cs: 486660e9394c48ac7cd510bcc15fe8d0 -> 
+  custom:scripting/monoscript/fileName/DieOnTakeDamage.cs: 8c08126256ff03a0750be0cd36ee5534 -> 
+  custom:scripting/monoscript/fileName/SelectorUseStandardUIElements.cs: e09025d0ee4a219452179c5774e77702 -> 
+  custom:scripting/monoscript/fileName/EntryGroup.cs: 53abd8d3e4d2f44d7caf1f3c210ede52 -> 
+  custom:scripting/monoscript/fileName/AbstractBarkUI.cs: 7dcbcdc0720fb2afbcc7c9c566d81a70 -> 
+  custom:scripting/monoscript/fileName/ExprStmt.cs: 69910ec343b9ec19d3fc40eda2593340 -> 
+  custom:scripting/monoscript/fileName/StartConversationOnDialogueEvent.cs: 7d2291a876fe09e62b8c0cc371ec57f9 -> 
+  custom:scripting/monoscript/fileName/StringFieldTextAreaAttributeDrawer.cs: 91736bdcdeab9c0f4442cf136a9ddee6 -> 
+  custom:scripting/monoscript/fileName/NameValue.cs: b48efcdc0b4c74cf61f9768621d48fbf -> 
+  custom:scripting/monoscript/fileName/StringField.cs: 320f26a0922727b12ebce58ea25db5f2 -> 
+  custom:scripting/monoscript/fileName/BarkGroupManagerEditor.cs: fd172d9c51cf4c08624ef1e1c7fb1612 -> 
+  custom:scripting/monoscript/fileName/Sequencer.cs: a65fd4ef66f320a80bc1b38a64a801b7 -> 
+  custom:scripting/monoscript/fileName/SpawnedObject.cs: c56e0b9cc00f758c37f5fc88ae62ab27 -> 
+  custom:scripting/monoscript/fileName/BringSubtitlePanelToFrontOnFocus.cs: 3f8efb2130c43e8a67d2d3276f43f7b1 -> 
+  custom:scripting/monoscript/fileName/ActorPopupAttribute.cs: 9b65a0d9aa5252687f7a6b6846f12983 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandLookAt.cs: 2ecbc8a98c961b8ef870ee4845843f38 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAnimation.cs: 6d3e49cab12121b045dcbdeb0e2847eb -> 
+  custom:scripting/monoscript/fileName/SavedGameDataStorer.cs: 9608b4deec63b3b99700be30914266b7 -> 
+  custom:scripting/monoscript/fileName/ParameterEvents.cs: ab0897f2617b40d851906854f8fa2d9e -> 
+  custom:scripting/monoscript/fileName/Lua.cs: 6fc49bd1d4e99b5285f2e83d85d01f0f -> 
+  custom:scripting/monoscript/fileName/StandardUIRoot.cs: e4fbf6cdb2741079d9244e28c63caa3f -> 
+  custom:scripting/monoscript/fileName/AnimatorSaver.cs: 054402ffcd7005076a8b5b0edf9cd100 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandQTE.cs: df21989b78cfc0d370cfc5a7722a6a02 -> 
+  custom:scripting/monoscript/fileName/TableLib.cs: fe5e0bded503682fc990664201db2354 -> 
+  custom:scripting/monoscript/fileName/SetComponentEnabledOnDialogueEvent.cs: bdddb5c18d4d308836fd1d452c77f77d -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UnityUISubtitleControls.cs: 8c5fb7623831036a2415bb908639dd89 -> 
+  custom:scripting/monoscript/fileName/InputDeviceManager.cs: 10b3c41c00dd589f5dc05816926667df -> 
+  custom:scripting/monoscript/fileName/EditorGUIZoomArea.cs: 0b10ff06c4212e360c0a6bffb9bb6fa5 -> 
+  custom:scripting/monoscript/fileName/LuaMultiValue.cs: 422b2a53b45db88be1dd7e7d5b5931f6 -> 
+  custom:scripting/monoscript/fileName/AbstractUIQTEControls.cs: 4ffee5b32f29f368fe5ee21e45e89747 -> 
+  custom:scripting/monoscript/fileName/TextTableEditorWindow.cs: b453915cac51f588a931549b2ba9c2ab -> 
+  custom:scripting/monoscript/fileName/WhileStmt.cs: 323e79da8355183cac7176b4a77d4566 -> 
+  custom:scripting/monoscript/fileName/UnityUIQuestTitle.cs: 62964bfc5a73b3a182c4d30d7a10d0dd -> 
+  custom:scripting/monoscript/fileName/TagMask.cs: 411cf9574a82b6d5b3c3bc209185024d -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAudioWait.cs: 5af0f9d1f6b37e4649524238661e11be -> 
+  custom:scripting/monoscript/fileName/UnityResponseMenuControls.cs: 9c51f15aa28359d7c8b8e45adfe88f13 -> 
+  custom:scripting/monoscript/fileName/ActorPicker.cs: 1b6d2e8fffe4101ae04c430559b8b2ce -> 
+  custom:scripting/monoscript/fileName/Tuple.cs: 92761e83c163df6269d84a1f9d37d152 -> 
+  custom:scripting/monoscript/fileName/InstantiatePrefabs.cs: 45cbe72d5048c72266077807a19d600b -> 
+  custom:scripting/monoscript/fileName/LuaValue.cs: 5e90c8c4b05364001f5099350122e869 -> 
+  custom:scripting/monoscript/fileName/UnityUIDialogueControls.cs: b6b48f22301192cd2426159bf79d62ca -> 
+  custom:scripting/monoscript/fileName/SelectionDelegates.cs: 29553b483f6b5e924c7d8d843803395f -> 
+  custom:scripting/monoscript/fileName/TextTableMassExportImportWindow.cs: c538c5c6749b71a0cd632630af939fcb -> 
+  custom:scripting/monoscript/fileName/UITextColor.cs: bc322da7e31d3ce4a24d0e3fd4d93b86 -> 
+  custom:scripting/monoscript/fileName/UnityGUIQuestLogWindow.cs: 70b4adb6200c937b1e9b1df2e5a4be0b -> 
+  custom:scripting/monoscript/fileName/UILocalizationManagerEditor.cs: 22c7a65fed8a70ae20074ab5d0adaa09 -> 
+  custom:scripting/monoscript/fileName/LuaOnDialogueEventEditor.cs: 4f42d484365d623ea0f32217472820fd -> 
+  custom:scripting/monoscript/fileName/SetEventSystem.cs: ce5d16662311563ec48c22954d0c85d1 -> 
+  custom:scripting/monoscript/fileName/NilLiteral.cs: a746ac3cbf97f513d6f9ab335a6f4798 -> 
+  custom:scripting/monoscript/fileName/MessageSystem.cs: 3b74410877c0931615b717fcb3aad389 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandVoice.cs: edf039e7e18ab11f180b1177082df192 -> 
+  custom:scripting/monoscript/fileName/SaveSystemEvents.cs: ed8670d91082695dc7197432bbfa3e31 -> 
+  custom:scripting/monoscript/fileName/StringLib.cs: dd45575249d0693a54f506798e8932e6 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandLiveCamera.cs: 98c6f26cda623a2b6df610adb00ad452 -> 
+  custom:scripting/monoscript/fileName/LuaScriptWizard.cs: c2b3aa72c391941638c79f3a64b6d817 -> 
+  custom:scripting/monoscript/fileName/PersistentDataManager.cs: ecbd78aad93170b2d581a0180b2cf78c -> 
+  custom:scripting/monoscript/fileName/DialogueManagerWizard.cs: a338e4f4aaadffc0019fc09417277d2e -> 
+  custom:scripting/monoscript/fileName/EnableOnStart.cs: 3ceecfe12996c8afc59fb915698b7236 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowItemSection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DefaultCameraAngle.cs: aaea9df1c19e5bcfee542ee851b15f19 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAnimatorFloat.cs: 8e35e06798d3786949f6723ec2549298 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorStyles.cs: 7841b2002ca01a39b3dae31d5611722b -> 
+  custom:scripting/monoscript/fileName/CameraAngleEditor.cs: 6277a5d0cdb81c499d48a9851dac33ba -> 
+  custom:scripting/monoscript/fileName/GUITextField.cs: 07a2879433c842cb33739b66628aadf3 -> 
+  custom:scripting/monoscript/fileName/StandardUIInstancedContentManager.cs: 5c5a7f9ec135d43f41a55f871f273add -> 
+  custom:scripting/monoscript/fileName/ScriptingSymbolNames.cs: a1f24c94eefe80bf8dab26fb5bb50e33 -> 
+  custom:scripting/monoscript/fileName/AbstractUsableUI.cs: bb53d59934598547980e6ef3c6670808 -> 
+  custom:scripting/monoscript/fileName/Item.cs: 79cadb7e00e609ff297a58970578ea42 -> edfd25bbe8f561e55c7415f9c3adacfe
+  custom:scripting/monoscript/fileName/MultiEnabledSaver.cs: 7c2dc2f61dd502201fb7fb3593a925b1 -> 
+  custom:scripting/monoscript/fileName/BarkGroupMember.cs: bfa7a2c2fa914be0e0b7687d3581ad6f -> 
+  custom:scripting/monoscript/fileName/IEventSystemUser.cs: b604cdfd9464abde755fe9f33524b0a0 -> 
+  custom:scripting/monoscript/fileName/ToggleUtility.cs: ea592b8c2da8a20403fdcc500d250e94 -> 
+  custom:scripting/monoscript/fileName/InputDeviceMethods.cs: 863b452f789c16f5ed525b188ae88db1 -> 
+  custom:scripting/monoscript/fileName/Subtitle.cs: 5ed435f8fd99bddafbcf105bc83f4a66 -> 
+  custom:scripting/monoscript/fileName/SetLocalizedFont.cs: 5cb4de5e9945fbcb3ebeedfef182ade0 -> 
+  custom:scripting/monoscript/fileName/BoolLiteral.cs: d0aae955961cbc7963779328b46535b9 -> 
+  custom:scripting/monoscript/fileName/QueuedSequencerCommand.cs: f7c998316cab6642aba5afdeac067962 -> 
+  custom:scripting/monoscript/fileName/CustomFieldType_QuestState.cs: 24a23165e98137cb2eb1e4a69e44cc8a -> 
+  custom:scripting/monoscript/fileName/SaveSystem.cs: 9ba0fd9ab2de21ecd30f7453769668dd -> 
+  custom:scripting/monoscript/fileName/SequencerCommand.cs: 5a5ae2e2b36ec4eab9bc048967cd74f9 -> 
+  custom:scripting/monoscript/fileName/StandardUISelectorElements.cs: a58a2dd0cea456a52f5b6ed9afdb0ac0 -> 
+  custom:scripting/monoscript/fileName/ActOnDialogueEvent.cs: 48b5efbb6e1c89190ec09ba98060a0d1 -> 
+  custom:scripting/monoscript/fileName/ConversationState.cs: cf95976061782dc1a5314af3b87ecca1 -> 
+  custom:scripting/monoscript/fileName/LODManager.cs: 1b770c7da4c5a8a872cd12e38e76b379 -> 
+  custom:scripting/monoscript/fileName/StandardUIColorText.cs: 8b37651671841db3012cc29dd1354b32 -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowTemplateSection.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/AlertTriggerEditor.cs: 86e74d7b452b882fbd460226b2ef5644 -> 
+  custom:scripting/monoscript/fileName/LocationPopupAttribute.cs: e857439c7dce5aef0e06c39215b11923 -> 
+  custom:scripting/monoscript/fileName/PlayerPrefsSavedGameDataStorerEditor.cs: 93e8b45d12094e58bdca9dddf43ec50c -> 
+  custom:scripting/monoscript/fileName/IOLib.cs: 9ed5bd5ce1d5378654e36d44041e7507 -> 
+  custom:scripting/monoscript/fileName/Saver.cs: 094149ab3ee04552d567b3277e7bd34f -> 
+  custom:scripting/monoscript/fileName/TableConstructor.cs: c9d22f40214052fad7ff4fa5e3f75e11 -> 
+  custom:scripting/monoscript/fileName/StandardUIQuestLogWindow.cs: c4ada5aff85efcbee7720da4e492bb53 -> 
+  custom:scripting/monoscript/fileName/SceneTransitionManager.cs: d58931861067edb41744ff71150ec05b -> 
+  custom:scripting/monoscript/fileName/GUIWindow.cs: 62674130766c72cc6c4343ab363ccfa4 -> 
+  custom:scripting/monoscript/fileName/LuaError.cs: 2e915c4b09d4c58fe64d84266dfb2088 -> 
+  custom:scripting/monoscript/fileName/Operation.cs: ff7531c23e8a5717953b3606118e5055 -> 
+  custom:scripting/monoscript/fileName/ConversationLogger.cs: 7ec4e0098dea472ef6b8c63505d08ff1 -> 
+  custom:scripting/monoscript/fileName/UITextFieldDrawer.cs: 3d40e9add2ef9e4998b774a010964ea5 -> 
+  custom:scripting/monoscript/fileName/StringAsset.cs: e9fd80861edec215d109b393d264d132 -> 
+  custom:scripting/monoscript/fileName/LuaConsole.cs: d075ea63e299f837f7c0e9044b6a558f -> 
+  custom:scripting/monoscript/fileName/MultiActiveSaver.cs: 454c0e17069892df3825b50a6880a3dc -> 
+  custom:scripting/monoscript/fileName/MethodCall.cs: 3a340a84d41788080d5533d79069bead -> 
+  custom:scripting/monoscript/fileName/StandardUIContainerTemplate.cs: ff81e8fcc6a9cf96b2a6fa1fff0febba -> 
+  custom:scripting/monoscript/fileName/BinaryDataSerializer.cs: 33090cc9d5f8bd7f3d9cb1d085b7b4d4 -> 
+  custom:scripting/monoscript/fileName/MoreEditorUtility.cs: f4e4fabc7058f2ef29815ad790b1fdd3 -> 
+  custom:scripting/monoscript/fileName/StandardUITimer.cs: 5add453212f1327fc05e6e664eec0c08 -> 
+  custom:scripting/monoscript/fileName/UnityUITextFieldUI.cs: b55398d3d06be1b7ab60252210fdf474 -> 
+  custom:scripting/monoscript/fileName/ForInStmt.cs: 911a6f944bd4f7ad86aa96ca81aa1bfc -> 
+  custom:scripting/monoscript/fileName/Field.cs: 5d8ef5378dcd1ccdafeec2f88902744d -> 
+  custom:scripting/monoscript/fileName/QuestStateDispatcher.cs: fae57bf5ebb8c909209a36e413cd3d17 -> 
+  custom:scripting/monoscript/fileName/LocalVar.cs: a467cd5075e1a1ad427fc89bf755b454 -> 
+  custom:scripting/monoscript/fileName/StandardUIContentTemplate.cs: be3242788e9d06d36a54ae9c08d95d88 -> 
+  custom:scripting/monoscript/fileName/StandardSceneTransitionManager.cs: f0f563b255109210f210dd629a1658e5 -> 
+  custom:scripting/monoscript/fileName/BarkOnIdleEditor.cs: c7252008000f400bb8456f2d580af099 -> 
+  custom:scripting/monoscript/fileName/EditorZoomArea.cs: 2e52083d9b9fac56f7dc9caa6132e8ee -> 
+  custom:scripting/monoscript/fileName/ExtraDatabases.cs: 17ae5f6f646426fb89913eea97922eb7 -> 
+  custom:scripting/monoscript/fileName/StandardUITextTemplate.cs: 3475a1c01f59ecb03bcdb27ad9f4d9b6 -> 
+  custom:scripting/monoscript/fileName/EncryptionUtility.cs: 9bd8a235b1fccd6d4f9a0b54f701cce4 -> 
+  custom:scripting/monoscript/fileName/TriggerEvent.cs: 48c8dd76b7b6ba0c487c9b782c69206d -> 
+  custom:scripting/monoscript/fileName/UnityUITimer.cs: 204523e8567a68feb1a1821b2e0340cd -> 
+  custom:scripting/monoscript/fileName/Parser.cs: 9c8028ade8ca3bc5e6cb09e5077e839f -> 
+  custom:scripting/monoscript/fileName/LuaFunction.cs: d12abc7ebc2acc55afa788d45e2ef10e -> 
+  custom:scripting/monoscript/fileName/QuestStateAttribute.cs: d144b032cca6495d02b8c8ae3c274c1c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/QuestLogWindow.cs: 30f2f15f8a8a159031c3ac1cd3990596 -> 
+  custom:scripting/monoscript/fileName/CursorControl.cs: e8131957c7c36bb0dd42262c24ba0039 -> 
+  custom:scripting/monoscript/fileName/DialogueTriggerEventDrawer.cs: cf6f861a0aba002487446f08727dd263 -> 
+  custom:scripting/monoscript/fileName/LanguageTextExporter.cs: 9d6a9623ac46153009cd9dd659fd38ac -> 
+  custom:scripting/monoscript/fileName/DialogueDatabaseEditorTools.cs: 6cd947145d1f5f87b892aeb6fe5acfd1 -> 
+  custom:scripting/monoscript/fileName/LuaOnDialogueEvent.cs: 88dcc567690d113f605dc87770835421 -> 
+  custom:scripting/monoscript/fileName/BarkDialogueUI.cs: 736098b85e1d27f560be883e4b324be9 -> 
+  custom:scripting/monoscript/fileName/GlobalTextTable.cs: 19f87a4e4fc064410c453f89620c3997 -> 
+  custom:scripting/monoscript/fileName/StandardUIMenuPanel.cs: e207399adf50ca0b07a5bd5abd89c7c3 -> 
+  custom:scripting/monoscript/fileName/LuaTriggerEditor.cs: e744ee54a3a8a4a443dadbb2145b671f -> 
+  custom:scripting/monoscript/fileName/UniqueIDWindowPrefs.cs: 514f81d89d3e9a7e7f5106795982bf0f -> 
+  custom:scripting/monoscript/fileName/LuaWatchItem.cs: cf1921c11428e4eba755140a246b55a7 -> 
+  custom:scripting/monoscript/fileName/SetComponentEnabledOnDialogueEventEditor.cs: 68da96af634a5ccd509899fe4766ecf8 -> 
+  custom:scripting/monoscript/fileName/StandardBarkUI.cs: eaec8c0584e6d9ee2bb310bcc9f9784e -> 
+  custom:scripting/monoscript/fileName/DialogueEditorVariableView.cs: 151eb3673ae68d506d09f52899cd89d5 -> 
+  custom:scripting/monoscript/fileName/UIAutonumberSettings.cs: 4e41b11aaaf60953de6bac81b8328c97 -> 
+  custom:scripting/monoscript/fileName/DemoInputRegistration.cs: 10f107db1cfd3d83968f8c1695a60423 -> 
+  custom:scripting/monoscript/fileName/SafeConvert.cs: 8e075e3a7e4385e590c9dfbcd48ef275 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandAudioWaitOnce.cs: b955b3c13ae7f9adead6c56c37403b14 -> 
+  custom:scripting/monoscript/fileName/Template.cs: 569641901ee2418691261e53ad82ee36 -> 
+  custom:scripting/monoscript/fileName/BarkController.cs: 95c7b6fc321dfb06ee5e0c3369eb45db -> 
+  custom:scripting/monoscript/fileName/LuaUserdata.cs: 552ae3b5f194aa3a8d04d13e2348fbf8 -> 
+  custom:scripting/monoscript/fileName/UIDropdownFieldDrawer.cs: db81ebb6d25fbeb7320e8ff4f1fd9aaf -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowConversationNodeEditorTopControls.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorTools.cs: 7bfe67ff7251088bec54846a983e713f -> 
+  custom:scripting/monoscript/fileName/StandardUIAlertControls.cs: 0fae03831e1807efc0c33a9c203d8861 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SequencerCommandDelay.cs: 39c50d47c714e12da7eacec69d80643d -> 
+  custom:scripting/monoscript/fileName/DialogueEditorWindowAssetLists.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/FunctionName.cs: 6b6bbaf43a6dc4c392ca755928e68309 -> 
+  custom:scripting/monoscript/fileName/SaveSystemEditorUtility.cs: e0fbb2cae5ff6c72ba469337fccca2d8 -> 
+  custom:scripting/monoscript/fileName/YarnConverterWindowDisabled.cs: 715238d996c4c5ad24f1a55a60b911c1 -> 
+  custom:scripting/monoscript/fileName/MessageArgs.cs: 4e7447dd33099efad2c63c97b6b93f7f -> 
+  custom:scripting/monoscript/fileName/DialogueSystemSaver.cs: 8d351d90d549669186c1dbc0fd6bfe0d -> 
+  custom:scripting/monoscript/fileName/SceneNotifier.cs: 060497c37823be2a7782684c3fb1aa75 -> 
+  custom:scripting/monoscript/fileName/VariablePopupDrawer.cs: 9187c8a498bdd5482bb4dd602c367dbf -> 
+  custom:scripting/monoscript/fileName/ListExtensions.cs: a2945415d0a87e503694a52808b5492e -> 0f96dfdcfd19dc46bb3b974629f04481
+  custom:scripting/monoscript/fileName/LuaBoolean.cs: a80c6ad1c1ede96495e5b17261c7bea7 -> 
+  custom:scripting/monoscript/fileName/DialogueSystemSceneEvents.cs: 7e89307c965e46db0471d717dc96a7b8 -> 
+  custom:scripting/monoscript/fileName/UITextField.cs: cb8567b37d42da83fa7f728b063949e0 -> 
+  custom:scripting/monoscript/fileName/TextTable.cs: 6ff5e2877e20a04e7d9af532ec991669 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 149.970037 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Dialogue Manager.prefab
+  artifactKey: Guid(58ac37417e60e534f91138088a3e6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Dialogue Manager.prefab using Guid(58ac37417e60e534f91138088a3e6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6184c510408588b3d6c3da29c68fafc') in 0.002714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.612639 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Dialogue Manager.prefab
+  artifactKey: Guid(58ac37417e60e534f91138088a3e6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Dialogue Manager.prefab using Guid(58ac37417e60e534f91138088a3e6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6184c510408588b3d6c3da29c68fafc') in 0.000653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
