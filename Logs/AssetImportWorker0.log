@@ -1653,3 +1653,21 @@ Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Dialogue M
  -> (artifact id: 'd6184c510408588b3d6c3da29c68fafc') in 0.000653 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 474.760538 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Dialogue Manager.prefab
+  artifactKey: Guid(58ac37417e60e534f91138088a3e6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Dialogue Manager.prefab using Guid(58ac37417e60e534f91138088a3e6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6184c510408588b3d6c3da29c68fafc') in 0.004750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1050.233528 seconds.
+  path: Assets/2D RPG Kit/Scenes/Demo/House.unity
+  artifactKey: Guid(9bf9fd0dfd13ab64bb033f2ce6415e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D RPG Kit/Scenes/Demo/House.unity using Guid(9bf9fd0dfd13ab64bb033f2ce6415e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '69f8834c376dcf305eec1a17e66210ab') in 0.005385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
